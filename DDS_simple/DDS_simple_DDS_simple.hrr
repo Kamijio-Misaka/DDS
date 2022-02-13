@@ -1,0 +1,117 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	    1451.00        100.0
+                                 IOBUF	         19        100.0
+                                PFUREG	        511        100.0
+                                   EBR	         11        100.0
+                                   DSP	          3        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                             OLED12864	          1        68.4
+                          raw_DDS_xmr2	          1        16.1
+---------------------------------------------------
+Report for cell OLED12864
+   Instance path: top/OLED12864_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	     992.00        68.4
+                                PFUREG	        379        74.2
+                                   EBR	          3        27.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                            bcd_8421_0	          1         9.2
+                            bcd_8421_1	          1         6.9
+---------------------------------------------------
+Report for cell bcd_8421_1
+   Instance path: top/OLED12864_inst/bcd_8421_vpp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	     100.00         6.9
+                                PFUREG	         59        11.5
+---------------------------------------------------
+Report for cell bcd_8421_0
+   Instance path: top/OLED12864_inst/bcd_8421_frq
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	     133.00         9.2
+                                PFUREG	         75        14.7
+---------------------------------------------------
+Report for cell raw_DDS_xmr2
+   Instance path: top/raw_DDS_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	     233.00        16.1
+                                PFUREG	        132        25.8
+                                   EBR	          8        72.7
+                                   DSP	          1        33.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+           acculator_2047_2_0_1_3_xmr0	          1         4.2
+                     key_filter_499999	          1         3.7
+                   key_filter_499999_0	          1         3.7
+                               pll_sys	          1         0.1
+                               pwm_adc	          1         3.0
+                             state_fsm	          1         0.1
+      user_rom8x2k_2047_1_4_0_1_3_xmr1	          1         1.2
+---------------------------------------------------
+Report for cell state_fsm
+   Instance path: top/raw_DDS_inst/state_fsm_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       2.00         0.1
+                                PFUREG	          2         0.4
+---------------------------------------------------
+Report for cell pll_sys
+   Instance path: top/raw_DDS_inst/pll_sys_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       2.00         0.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                    lscc_pll_Z1_layer0	          1         0.1
+---------------------------------------------------
+Report for cell lscc_pll_Z1_layer0
+   Instance path: top/raw_DDS_inst/pll_sys_inst/lscc_pll_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       2.00         0.1
+---------------------------------------------------
+Report for cell key_filter_499999
+   Instance path: top/raw_DDS_inst/keysel_filter_inst_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	      53.00         3.7
+                                PFUREG	         21         4.1
+---------------------------------------------------
+Report for cell key_filter_499999_0
+   Instance path: top/raw_DDS_inst/keyfreq_filter_inst_fov
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	      53.00         3.7
+                                PFUREG	         21         4.1
+---------------------------------------------------
+Report for cell pwm_adc
+   Instance path: top/raw_DDS_inst/pwm_adc_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	      44.00         3.0
+                                PFUREG	         26         5.1
+---------------------------------------------------
+Report for cell acculator_2047_2_0_1_3_xmr0
+   Instance path: top/raw_DDS_inst/acculator_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	      61.00         4.2
+                                PFUREG	         48         9.4
+---------------------------------------------------
+Report for cell user_rom8x2k_2047_1_4_0_1_3_xmr1
+   Instance path: top/raw_DDS_inst/user_rom8x2k_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	      18.00         1.2
+                                PFUREG	         14         2.7
+                                   EBR	          8        72.7
+                                   DSP	          1        33.3

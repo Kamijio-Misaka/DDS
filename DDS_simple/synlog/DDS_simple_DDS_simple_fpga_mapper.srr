@@ -1,0 +1,1080 @@
+# Thu Feb 10 19:10:38 2022
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1868R, Built Nov 13 2017 02:40:05
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03LR-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":65:0:65:5|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.adc_val_reg_rep[7:0] because it is equivalent to instance raw_DDS_inst.user_rom8x2k_inst.adc_val_reg[7:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MT206 |Auto Constrain mode is enabled
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":253:50:253:83|ROM un328_char_reg_cnst[15:9] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":252:50:252:83|ROM un322_char_reg_cnst[23:16] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":251:50:251:83|ROM un316_char_reg_cnst[31:24] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":250:50:250:83|ROM un310_char_reg_cnst[39:32] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":249:50:249:83|ROM un304_char_reg_cnst[47:40] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":248:50:248:83|ROM un298_char_reg_cnst[55:48] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":247:50:247:83|ROM un292_char_reg_cnst[63:56] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":246:50:246:85|ROM un286_char_reg_cnst[71:64] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":245:50:245:85|ROM un280_char_reg_cnst[79:72] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":244:50:244:85|ROM un274_char_reg_cnst[87:80] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":243:50:243:85|ROM un268_char_reg_cnst[95:89] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":242:50:242:85|ROM un262_char_reg_cnst[103:96] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":241:50:241:85|ROM un256_char_reg_cnst[111:105] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":240:50:240:85|ROM un250_char_reg_cnst[119:112] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":239:50:239:85|ROM un244_char_reg_cnst[127:123] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":174:40:174:48|ROM char_reg_2[7:0] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":253:50:253:83|ROM un328_char_reg_cnst[15:9] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":253:50:253:83|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 7 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":252:50:252:83|ROM un322_char_reg_cnst[23:16] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":252:50:252:83|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":251:50:251:83|ROM un316_char_reg_cnst[31:24] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":251:50:251:83|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":250:50:250:83|ROM un310_char_reg_cnst[39:32] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":250:50:250:83|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":249:50:249:83|ROM un304_char_reg_cnst[47:40] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":249:50:249:83|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":248:50:248:83|ROM un298_char_reg_cnst[55:48] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":248:50:248:83|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":247:50:247:83|ROM un292_char_reg_cnst[63:56] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":247:50:247:83|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":246:50:246:85|ROM un286_char_reg_cnst[71:64] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":246:50:246:85|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":245:50:245:85|ROM un280_char_reg_cnst[79:72] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":245:50:245:85|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":244:50:244:85|ROM un274_char_reg_cnst[87:80] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":244:50:244:85|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":243:50:243:85|ROM un268_char_reg_cnst[95:89] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":243:50:243:85|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 7 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":242:50:242:85|ROM un262_char_reg_cnst[103:96] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":242:50:242:85|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":241:50:241:85|ROM un256_char_reg_cnst[111:105] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":241:50:241:85|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 7 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":240:50:240:85|ROM un250_char_reg_cnst[119:112] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":240:50:240:85|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":239:50:239:85|ROM un244_char_reg_cnst[127:123] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":239:50:239:85|Found ROM .delname. (in view: work.OLED12864(verilog)) with 12 words by 5 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":174:40:174:48|ROM char_reg_2[7:0] (in view: work.OLED12864(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":174:40:174:48|Found ROM .delname. (in view: work.OLED12864(verilog)) with 23 words by 8 bits.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":57:27:57:49|ROM un6_rd_data_reg[7:0] (in view: work.user_rom8x2k_2047_1_4_0_1_3_xmr1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":57:27:57:49|ROM un6_rd_data_reg[7:0] (in view: work.user_rom8x2k_2047_1_4_0_1_3_xmr1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":57:27:57:49|Found ROM .delname. (in view: work.user_rom8x2k_2047_1_4_0_1_3_xmr1(verilog)) with 2048 words by 8 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 153MB)
+
+Encoding state machine cnt_init[5:0] (in view: work.OLED12864(verilog))
+original code -> new code
+   00000 -> 000001
+   00001 -> 000010
+   00010 -> 000100
+   00011 -> 001000
+   00100 -> 010000
+   00101 -> 100000
+Encoding state machine state[6:0] (in view: work.OLED12864(verilog))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+@N: MO231 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Found counter in view:work.OLED12864(verilog) instance cnt_scan[4:0] 
+@N: MO231 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Found counter in view:work.OLED12864(verilog) instance cnt_main[4:0] 
+@N: MO231 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Found counter in view:work.OLED12864(verilog) instance num[7:0] 
+@N: MO231 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Found counter in view:work.OLED12864(verilog) instance cnt[4:0] 
+@N: MO231 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Found counter in view:work.OLED12864(verilog) instance cnt_delay[15:0] 
+@N: MO231 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Found counter in view:work.OLED12864(verilog) instance cnt_write[4:0] 
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing instance OLED12864_inst.char[62] because it is equivalent to instance OLED12864_inst.char[54]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing instance OLED12864_inst.num_delay[2] because it is equivalent to instance OLED12864_inst.num_delay[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing instance OLED12864_inst.x_pl[1] because it is equivalent to instance OLED12864_inst.x_ph[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing instance OLED12864_inst.num_delay[14] because it is equivalent to instance OLED12864_inst.num_delay[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing instance OLED12864_inst.num_delay[8] because it is equivalent to instance OLED12864_inst.num_delay[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing instance OLED12864_inst.num_delay[7] because it is equivalent to instance OLED12864_inst.num_delay[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing instance OLED12864_inst.num_delay[5] because it is equivalent to instance OLED12864_inst.num_delay[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing instance OLED12864_inst.num_delay[3] because it is equivalent to instance OLED12864_inst.num_delay[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing instance OLED12864_inst.num_delay[15] because it is equivalent to instance OLED12864_inst.num_delay[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing sequential instance state_back[4] (in view: work.OLED12864(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing sequential instance num_delay[10] (in view: work.OLED12864(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing sequential instance char[54] (in view: work.OLED12864(verilog)) because it does not drive other instances.
+Encoding state machine fsm_state[2:0] (in view: work.state_fsm(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+@N: MO231 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\key_filter.v":16:4:16:9|Found counter in view:work.key_filter_499999(verilog) instance cnt[19:0] 
+@N: MO231 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\pwm_adc.v":40:0:40:5|Found counter in view:work.pwm_adc(verilog) instance pwm_set[7:0] 
+@N: MO231 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\pwm_adc.v":26:0:26:5|Found counter in view:work.pwm_adc(verilog) instance pwm_adder[7:0] 
+Encoding state machine freq_conf_state[2:0] (in view: work.acculator_2047_2_0_1_3_xmr0(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   011 -> 10
+Encoding state machine state[2:0] (in view: work.user_rom8x2k_2047_1_4_0_1_3_xmr1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 153MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 161MB peak: 162MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 151MB peak: 162MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 151MB peak: 162MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 146MB peak: 162MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 146MB peak: 162MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 148MB peak: 162MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 148MB peak: 162MB)
+
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_0.INIT_00 = FC2418247C084854043F3C401C203C4044281CA0446400000000000000000000.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_0.INIT_01 = 000120547F48384438443854087E18A47F08004440807F1000417C047C083844.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_0.INIT_02 = 7F093E417F09464901013F401F203F40631407086151007F552A004104024040.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_0.INIT_03 = 32497C127F493E417F417F497F093E417F08004120407F087F407F027F043E41.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_0.INIT_04 = 3E51004242612141181427453C4A017136490649003600560814141400410201.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_0.INIT_05 = 000000000007147F242A626436490005001C0041140808080000080800602010.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_0.INIT_07 = 3E51004242612141181427453C4A0171364906497C127F493E417F417F497F09.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_1.INIT_00 = 242418240404545440442040204040302810A0A04C5400000000000000000000.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_1.INIT_01 = 0402545444444444484454540109A4A40404407D7D844428407F041804044444.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_1.INIT_02 = 0909215129194949017F40402040403814080870454941412A557F4102014040.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_1.INIT_03 = 515912114949414122414949090949490808417F3F4122144040020C10084141.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_1.INIT_04 = 4549407F49514B457F1245454949050949492949003600364122141414220951.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_1.INIT_05 = 0000002F07007F142A7F13082255000341221C22083E083E60A0080800600408.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_1.INIT_07 = 4549407F49514B457F1245454949050949492949121149494141224149490909.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_2.INIT_00 = 001800FC000800200020007C001C003C0044007C004400000000000000000000.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_2.INIT_01 = 0000007800380020007F00180002007C00780000000000000000007800780038.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_2.INIT_02 = 0006005E004600310001003F001F003F00630007004300000055000000040040.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_2.INIT_03 = 003E007C00360022001C00410001007A007F0000000100410040007F007F003E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_2.INIT_04 = 003E00000046003100100039003000030036001E000000000000001400080006.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_2.INIT_05 = 0000000000000014001200230050000000000000001400080000000800000002.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":201:50:201:78|Initial value OLED12864_inst.un177_char_reg_cnst_0_2.INIT_07 = 003E00000046003100100039003000030036001E007C00360022001C00410001.
+@N: FX211 |Packed ROM OLED12864_inst.un177_char_reg_cnst_0[39:0] (7 input, 40 output) to Block SelectRAM 
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_00 = 962D3C873C873C963C1E2D2D2D2D2D2DA5B487969687960F962D963C963C0EA4.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_01 = 96788769A54B2D962D962D963CA53C2D3C3C3C3C969687878787872D873C873C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_02 = 87F0B4C3B4C3B44BB45AB4782DE12DE12DE12D780F5A0F5A1E4B96C396F096F0.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_03 = 781E781E690FE187E1B4E1B4E13CF02DF02D5A875A965A964B0F0F690F690F78.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_04 = A51E2DB43CA578E1786978785A5AC3C3C3C3C3C3C35AC378C3785AE15AE15AB4.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_05 = B4F0B4F0874B874B874B0FD20FD20FF01E691E2D1E3C96B4B496A587A50FA51E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_06 = 4BD24B785A695A69D2E1D2F0D2F0E10FE10F698769966996693C782D782DB4E1.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_07 = F01EB45AA54B2DC32DD22DF02D783C69B4A5B4A5B4B4961E961E870F0F874BD2.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_08 = 0F1E1E0F96879687D2D2D25AD25AC3694BE14BF04BB44B3C5A2DD2A5F087F096.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_09 = E14BE14B69C369966996691E780F780FB4F0B4F0B478A569A5692DE12DB42DB4.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_0A = 5A0F5A1ED29696D287C3874B87690FF00FB40FB41E2D1E2D1E2DD2F0D2F0D278.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_0B = A578A5783CE13CE13CA53C3C3C3C3C3CA5A5E1E1E169E178C35A4BD25A875A87.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_0C = 0F690F692D0FA596A596A51EF04BF04B78C378D278D2781E690FE187E187A5D2.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_0D = 96F0963C872D0FA50FA54BE14B784B784B78D2E1D2A5D22DD23CD23C1EF00FE1.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_0E = 1EC31E4B1E1E1E1E9696C3C3C3C3C34BC35A4B964B964B965A2D1E6996E196F0.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0.INIT_0F = 96C396C3964B960F961E1E965AD24B4B4B4B4B4BC387C396C31EC31E964B1EC3.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_00 = 960F960F960F960F960F961E961E961E1E961EB41EB41EB41EB41EB41EB40EA4.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_01 = A5A5A5B4A5B4A5B4A5B4A5B4A5B4A5B4A5B4A5B4871E960F960F960F960F960F.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_02 = 3C1E3C1E3C1E3C1E3C1E3C1E2D0F2D0F2D0F2D0F2D2D2D2D2D2DA5A5A5A5A5A5.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_03 = 873C873C962D1EA51EA51EA51EA51EA51EA53C873C873C873C963C963C963C96.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_04 = 87C387C387C387878787878787A5873C873C873C873C873C873C873C873C873C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_05 = 3C693C691E5A1E5A1E5A1E5A1E5A1E5A1E5A1E5A1E5A96D296D287C387C387C3.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_06 = A578A578A578A5782DF02DF02DF03CE13CE13CE13CE13CE13CE13CE13CE13C69.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_07 = F096F096E187E187E187E187E187E187E10FE10FE10FE12DE12DE13CE13CA578.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_08 = 78C378C3784B784B780F780F780F781E781E781E781E781E781EF096F096F096.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_09 = C378C378C378C378C378C378C378C3784BF04BF04BF05AE15AE15AE15AE15AE1.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_0A = 1E3C1E3C96B496B487A587A587A587A587A587A587A587A587A5C369C369C369.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_0B = 1EC31EC31EC31EC31EC31EC31EC31EC31E5A1E1E1E1E1E1E1E3C1E3C1E3C1E3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_0C = C396C396C396C31EC31EC31E875A875A875A875A875A875A964B1EC31EC31EC3.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_0D = 5A5A5A5A4B4B4B4B4B4B4B0F4B0F4B0F4B0FC387C387C387C387C387C387C396.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_0E = 960F960F960F960F1E875AD25AD25AD25AD25AD25AD25AD25AD25AD25A5A5A5A.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1.INIT_0F = 87D287D287D287D287D287D28796968796879687960F960F960F960F960F960F.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_00 = B41EB41EB41EB41EB41EB41EB41EB41EB41EB41EB41EB41EB41EB41EB41EA40E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_01 = 963C963C963C963C963C963C963C963C963C963CB41EB41EB41EB41EB41EB41E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_02 = 96A596A596A596A596A596A596B496B496B496B496B496B496B4963C963C963C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_03 = 96A596A596A596A596A596A596A596A596A596A596A596A596A596A596A596A5.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_04 = 96A596A596A596A596A596A596A596A596A596A596A596A596A596A596A596A5.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_05 = 0F1E0F1E0F3C0F3C0F3C0F3C0F3C0F3C0F3C0F3C0F3C87B487B496A596A596A5.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_06 = 0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_07 = 0F0F0F0F0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_08 = 0F870F870F870F870F870F870F870F870F870F870F870F870F870F0F0F0F0F0F.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_09 = 0F870F870F870F870F870F870F870F870F870F870F870F870F870F870F870F87.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_0A = 965A965A1ED21ED20FC30FC30FC30FC30FC30FC30FC30FC30FC30F870F870F87.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_0B = 965A965A965A965A965A965A965A965A965A965A965A965A965A965A965A965A.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_0C = 965A965A965A965A965A965A965A965A965A965A965A965A965A965A965A965A.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_0D = 96C396C396D296D296D296D296D296D296D2965A965A965A965A965A965A965A.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_0E = D287D287D287D287D28796C396C396C396C396C396C396C396C396C396C396C3.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2.INIT_0F = D287D287D287D287D287D287D287D287D287D287D287D287D287D287D287D287.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_00 = 0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E1F0E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_01 = 0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_02 = 0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_03 = 0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_04 = 0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E0F1E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_05 = 0F960F960F960F960F960F960F960F960F960F960F960F1E0F1E0F1E0F1E0F1E.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_06 = 0F960F960F960F960F960F960F960F960F960F960F960F960F960F960F960F96.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_07 = 0F960F960F960F960F960F960F960F960F960F960F960F960F960F960F960F96.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_08 = 0F960F960F960F960F960F960F960F960F960F960F960F960F960F960F960F96.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_09 = 0F960F960F960F960F960F960F960F960F960F960F960F960F960F960F960F96.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_0A = 0F870F870F870F870F960F960F960F960F960F960F960F960F960F960F960F96.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_0B = 0F870F870F870F870F870F870F870F870F870F870F870F870F870F870F870F87.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_0C = 0F870F870F870F870F870F870F870F870F870F870F870F870F870F870F870F87.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_0D = 0F870F870F870F870F870F870F870F870F870F870F870F870F870F870F870F87.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_0E = 0F870F870F870F870F870F870F870F870F870F870F870F870F870F870F870F87.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3.INIT_0F = 0F870F870F870F870F870F870F870F870F870F870F870F870F870F870F870F87.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_00 = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783838.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_01 = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_02 = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_03 = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_04 = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_05 = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_06 = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_07 = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_08 = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_09 = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_0A = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_0B = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_0C = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_0D = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+@N: FX276 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\user_rom8x2k.v":56:28:56:50|Initial value raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4.INIT_0E = 1E1E0F0F0F870FC30FE10FF08778C33CE11EF00FF087F0C3F0E1F0F078783C3C.
+
+Only the first 100 messages of id 'FX276' are reported. To see all messages use 'report_messages -log C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\synlog\DDS_simple_DDS_simple_fpga_mapper.srr -id FX276' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {FX276} -count unlimited' in the Tcl shell.
+@N: FX211 |Packed ROM raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0[15:0] (11 input, 16 output) to Block SelectRAM 
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_7_OLD_0[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_7_OLD_0[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_6_OLD_0[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_6_OLD_0[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_5_OLD_0[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_5_OLD_0[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4_OLD_0[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4_OLD_0[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3_OLD_0[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3_OLD_0[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2_OLD_0[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2_OLD_0[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1_OLD_0[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1_OLD_0[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_sr_en (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_OLD_0[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_OLD_0[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[3] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[4] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[5] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[6] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[7] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[8] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[9] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[10] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[11] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[12] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[13] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[14] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD_0[15] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[3] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[4] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[5] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[6] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[7] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[8] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[9] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[10] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[11] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[12] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[13] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[14] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_1_OLD_0[15] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_sr_rst (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_sr_rst_0 (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_sr_en_0 (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[3] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[4] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[5] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[6] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[7] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[8] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[9] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[10] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[11] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[12] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[13] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[14] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_0_OLD_0[15] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD[15] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD[14] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD[13] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD[12] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD[11] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD[10] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD[9] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance OLED12864_inst.un177_char_reg_cnst_0_2_OLD[8] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\bcd_8421.v":40:1:40:6|Removing sequential instance OLED12864_inst.bcd_8421_vpp.data_shift[43] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\bcd_8421.v":40:1:40:6|Removing sequential instance OLED12864_inst.bcd_8421_vpp.data_shift[42] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\bcd_8421.v":40:1:40:6|Removing sequential instance OLED12864_inst.bcd_8421_vpp.data_shift[41] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\bcd_8421.v":40:1:40:6|Removing sequential instance OLED12864_inst.bcd_8421_vpp.data_shift[40] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\bcd_8421.v":40:1:40:6|Removing sequential instance OLED12864_inst.bcd_8421_vpp.data_shift[39] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\bcd_8421.v":40:1:40:6|Removing sequential instance OLED12864_inst.bcd_8421_vpp.data_shift[38] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\bcd_8421.v":40:1:40:6|Removing sequential instance OLED12864_inst.bcd_8421_vpp.data_shift[37] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\bcd_8421.v":40:1:40:6|Removing sequential instance OLED12864_inst.bcd_8421_vpp.data_shift[36] (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 153MB peak: 162MB)
+
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_7_OLD[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_7_OLD[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_6_OLD[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_6_OLD[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_5_OLD[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_5_OLD[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4_OLD[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4_OLD[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3_OLD[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3_OLD[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2_OLD[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2_OLD[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1_OLD[0] (in view: work.top(verilog)) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\synlog\DDS_simple_DDS_simple_fpga_mapper.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 191MB peak: 193MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		    -4.01ns		1251 /       481
+   2		0h:00m:04s		    -4.01ns		1211 /       481
+   3		0h:00m:05s		    -2.61ns		1211 /       481
+   4		0h:00m:05s		    -2.61ns		1212 /       481
+@N: FX271 :|Replicating instance OLED12864_inst.un177_char_reg_cnst_0_0_sr_en (in view: work.top(verilog)) with 47 loads 3 times to improve timing.
+@N: FX271 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Replicating instance OLED12864_inst.cnt_chinese[2] (in view: work.top(verilog)) with 31 loads 2 times to improve timing.
+@N: FX271 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Replicating instance OLED12864_inst.cnt_chinese[4] (in view: work.top(verilog)) with 31 loads 2 times to improve timing.
+@N: FX271 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Replicating instance OLED12864_inst.cnt_chinese[1] (in view: work.top(verilog)) with 77 loads 3 times to improve timing.
+@N: FX271 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Replicating instance OLED12864_inst.cnt_chinese[3] (in view: work.top(verilog)) with 26 loads 2 times to improve timing.
+@N: FX271 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Replicating instance OLED12864_inst.cnt_chinese[5] (in view: work.top(verilog)) with 32 loads 2 times to improve timing.
+@N: FX271 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Replicating instance OLED12864_inst.mem_hanzi_num[3] (in view: work.top(verilog)) with 76 loads 3 times to improve timing.
+@N: FX271 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Replicating instance OLED12864_inst.mem_hanzi_num[1] (in view: work.top(verilog)) with 68 loads 3 times to improve timing.
+@N: FX271 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Replicating instance OLED12864_inst.mem_hanzi_num[2] (in view: work.top(verilog)) with 73 loads 3 times to improve timing.
+@N: FX271 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Replicating instance OLED12864_inst.cnt_chinese[0] (in view: work.top(verilog)) with 93 loads 3 times to improve timing.
+@N: FX271 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Replicating instance OLED12864_inst.cnt_main[0] (in view: work.top(verilog)) with 32 loads 2 times to improve timing.
+@N: FX271 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Replicating instance OLED12864_inst.state[6] (in view: work.top(verilog)) with 39 loads 2 times to improve timing.
+Timing driven replication report
+Added 30 Registers via timing driven replication
+Added 27 LUTs via timing driven replication
+
+   5		0h:00m:09s		    -2.61ns		1249 /       511
+
+
+   6		0h:00m:10s		    -2.61ns		1249 /       511
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 181MB peak: 230MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 181MB peak: 230MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 522 clock pin(s) of sequential element(s)
+0 instances converted, 522 sequential instances remain driven by gated/generated clocks
+
+============================================================================================================================== Gated/Generated Clocks ===============================================================================================================================
+Clock Tree ID     Driving Element                                     Drive Element Type     Fanout     Sample Instance                                Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       raw_DDS_inst.pll_sys_inst.lscc_pll_inst.u_PLL_B     PLL_B                  522        raw_DDS_inst.user_rom8x2k_inst.state_er[1]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=====================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 149MB peak: 230MB)
+
+Writing Analyst data base C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\synwork\DDS_simple_DDS_simple_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 178MB peak: 230MB)
+
+Writing constraint files
+
+Finished Writing constraint files (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 178MB peak: 230MB)
+
+Writing Verilog Simulation files
+Writing XDC file C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\DDS_simple_DDS_simple.xdc
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 175MB peak: 230MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 175MB peak: 230MB)
+
+@W: MT246 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\top.v":51:21:51:33|Blackbox MAC16 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\pll_sys\rtl\core\lscc_pll.v":155:0:155:6|Blackbox PLL_B is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock lscc_pll_Z1_layer0|outcore_o_inferred_clock with period 14.01ns. Please declare a user-defined clock on object "n:raw_DDS_inst.pll_sys_inst.lscc_pll_inst.outcore_o"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Feb 10 19:10:51 2022
+#
+
+
+Top view:               top
+Requested Frequency:    71.4 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.472
+
+                                                Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                                  Frequency     Frequency     Period        Period        Slack      Type         Group                
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+lscc_pll_Z1_layer0|outcore_o_inferred_clock     71.4 MHz      60.7 MHz      14.008        16.479        -2.472     inferred     Autoconstr_clkgroup_0
+System                                          454.1 MHz     386.0 MHz     2.202         2.591         -0.389     system       system_clkgroup      
+=====================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                     Ending                                       |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                       System                                       |  2.202       -0.389  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                       lscc_pll_Z1_layer0|outcore_o_inferred_clock  |  14.008      -0.118  |  No paths    -      |  No paths    -      |  No paths    -    
+lscc_pll_Z1_layer0|outcore_o_inferred_clock  System                                       |  14.008      1.150   |  No paths    -      |  No paths    -      |  No paths    -    
+lscc_pll_Z1_layer0|outcore_o_inferred_clock  lscc_pll_Z1_layer0|outcore_o_inferred_clock  |  14.008      -2.472  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: lscc_pll_Z1_layer0|outcore_o_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                      Starting                                                                                                   Arrival           
+Instance                                              Reference                                       Type        Pin     Net                                    Time        Slack 
+                                                      Clock                                                                                                                        
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OLED12864_inst.un177_char_reg_cnst_0_0_sr_en_fast     lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     Q       un177_char_reg_cnst_0_0_sr_en_fast     0.796       -2.472
+OLED12864_inst.un177_char_reg_cnst_0_0_sr_en_rep1     lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     Q       un177_char_reg_cnst_0_0_sr_en_rep1     0.796       -2.462
+OLED12864_inst.un177_char_reg_cnst_0_0_OLD_e[15]      lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     Q       un177_char_reg_cnst_0_0_OLD[15]        0.796       -2.441
+OLED12864_inst.un177_char_reg_cnst_0_0_OLD_e[7]       lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     Q       un177_char_reg_cnst_0_0_OLD[7]         0.796       -2.400
+OLED12864_inst.un177_char_reg_cnst_0_0_OLD_e[10]      lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     Q       un177_char_reg_cnst_0_0_OLD[10]        0.796       -2.400
+OLED12864_inst.un177_char_reg_cnst_0_0_OLD_e[6]       lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     Q       un177_char_reg_cnst_0_0_OLD[6]         0.796       -2.389
+OLED12864_inst.un177_char_reg_cnst_0_0_OLD_e[11]      lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     Q       un177_char_reg_cnst_0_0_OLD[11]        0.796       -2.389
+OLED12864_inst.un177_char_reg_cnst_0_0_OLD_e[2]       lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     Q       un177_char_reg_cnst_0_0_OLD[2]         0.796       -2.369
+OLED12864_inst.un177_char_reg_cnst_0_1_OLD_e[2]       lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     Q       un177_char_reg_cnst_0_1_OLD[2]         0.796       -2.369
+OLED12864_inst.un177_char_reg_cnst_0_0_OLD_e[3]       lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     Q       un177_char_reg_cnst_0_0_OLD[3]         0.796       -2.358
+===================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                   Starting                                                                                       Required           
+Instance                           Reference                                       Type        Pin     Net                        Time         Slack 
+                                   Clock                                                                                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+OLED12864_inst.oled_dat            lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     D       oled_dat_11                13.852       -2.472
+OLED12864_inst.char_reg_ret_22     lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     D       char_reg_53_38_d_ns[3]     13.852       -0.801
+OLED12864_inst.char_reg_ret_85     lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     D       char_reg_53_37_d_ns[0]     13.852       -0.801
+OLED12864_inst.char_reg_ret_14     lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     D       char_reg_53_38_d_ns[5]     13.852       -0.780
+OLED12864_inst.char_reg_ret_79     lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     D       char_reg_53_37_d_ns[2]     13.852       -0.729
+OLED12864_inst.char_reg_ret_82     lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     D       char_reg_53_37_d_ns[1]     13.852       -0.729
+OLED12864_inst.char_reg_ret_26     lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     D       char_reg_53_38_d_0[2]      13.852       -0.698
+OLED12864_inst.char_reg_ret_76     lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3DZ     D       char_reg_53_37_d_ns[3]     13.852       -0.698
+OLED12864_inst.state[0]            lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3BZ     D       state_ns_0_i[0]            13.852       -0.615
+OLED12864_inst.state_back[0]       lscc_pll_Z1_layer0|outcore_o_inferred_clock     FD1P3BZ     D       state_back                 13.852       -0.615
+=====================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      14.008
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.852
+
+    - Propagation time:                      16.324
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.472
+
+    Number of logic level(s):                7
+    Starting point:                          OLED12864_inst.un177_char_reg_cnst_0_0_sr_en_fast / Q
+    Ending point:                            OLED12864_inst.oled_dat / D
+    The start point is clocked by            lscc_pll_Z1_layer0|outcore_o_inferred_clock [rising] on pin CK
+    The end   point is clocked by            lscc_pll_Z1_layer0|outcore_o_inferred_clock [rising] on pin CK
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                        Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+OLED12864_inst.un177_char_reg_cnst_0_0_sr_en_fast           FD1P3DZ     Q        Out     0.796     0.796       -         
+un177_char_reg_cnst_0_0_sr_en_fast                          Net         -        -       1.599     -           17        
+OLED12864_inst.un177_char_reg_cnst_0_1_OLD_e_RNI082T[2]     LUT4        A        In      -         2.395       -         
+OLED12864_inst.un177_char_reg_cnst_0_1_OLD_e_RNI082T[2]     LUT4        Z        Out     0.661     3.056       -         
+un177_char_reg_cnst_0_1_OLD_e_RNI082T[2]                    Net         -        -       1.371     -           1         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_5[2]             LUT4        A        In      -         4.427       -         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_5[2]             LUT4        Z        Out     0.661     5.089       -         
+N_1578                                                      Net         -        -       1.371     -           1         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_am[2]            LUT4        B        In      -         6.460       -         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_am[2]            LUT4        Z        Out     0.589     7.049       -         
+char_reg_53_am[2]                                           Net         -        -       1.371     -           1         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_ns[2]            LUT4        A        In      -         8.420       -         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_ns[2]            LUT4        Z        Out     0.661     9.082       -         
+char_reg[2]                                                 Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_6                               LUT4        A        In      -         10.453      -         
+OLED12864_inst.oled_dat_RNO_6                               LUT4        Z        Out     0.569     11.021      -         
+oled_dat_11_5_ns_1                                          Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_2                               LUT4        D        In      -         12.392      -         
+OLED12864_inst.oled_dat_RNO_2                               LUT4        Z        Out     0.465     12.857      -         
+N_1605                                                      Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO                                 LUT4        B        In      -         14.228      -         
+OLED12864_inst.oled_dat_RNO                                 LUT4        Z        Out     0.589     14.817      -         
+oled_dat_11                                                 Net         -        -       1.507     -           1         
+OLED12864_inst.oled_dat                                     FD1P3DZ     D        In      -         16.324      -         
+=========================================================================================================================
+Total path delay (propagation time + setup) of 16.479 is 5.147(31.2%) logic and 11.332(68.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      14.008
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.852
+
+    - Propagation time:                      16.314
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.462
+
+    Number of logic level(s):                7
+    Starting point:                          OLED12864_inst.un177_char_reg_cnst_0_0_sr_en_rep1 / Q
+    Ending point:                            OLED12864_inst.oled_dat / D
+    The start point is clocked by            lscc_pll_Z1_layer0|outcore_o_inferred_clock [rising] on pin CK
+    The end   point is clocked by            lscc_pll_Z1_layer0|outcore_o_inferred_clock [rising] on pin CK
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                        Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+OLED12864_inst.un177_char_reg_cnst_0_0_sr_en_rep1           FD1P3DZ     Q        Out     0.796     0.796       -         
+un177_char_reg_cnst_0_0_sr_en_rep1                          Net         -        -       1.599     -           18        
+OLED12864_inst.un177_char_reg_cnst_0_1_OLD_e_RNIBGBQ[3]     LUT4        A        In      -         2.395       -         
+OLED12864_inst.un177_char_reg_cnst_0_1_OLD_e_RNIBGBQ[3]     LUT4        Z        Out     0.661     3.056       -         
+un177_char_reg_cnst_0_1_OLD_e_RNIBGBQ[3]                    Net         -        -       1.371     -           1         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_5[3]             LUT4        A        In      -         4.427       -         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_5[3]             LUT4        Z        Out     0.661     5.089       -         
+N_1579                                                      Net         -        -       1.371     -           1         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_am[3]            LUT4        B        In      -         6.460       -         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_am[3]            LUT4        Z        Out     0.589     7.049       -         
+char_reg_53_am[3]                                           Net         -        -       1.371     -           1         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_ns[3]            LUT4        A        In      -         8.420       -         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_ns[3]            LUT4        Z        Out     0.661     9.082       -         
+char_reg[3]                                                 Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_6                               LUT4        B        In      -         10.453      -         
+OLED12864_inst.oled_dat_RNO_6                               LUT4        Z        Out     0.558     11.011      -         
+oled_dat_11_5_ns_1                                          Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_2                               LUT4        D        In      -         12.382      -         
+OLED12864_inst.oled_dat_RNO_2                               LUT4        Z        Out     0.465     12.847      -         
+N_1605                                                      Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO                                 LUT4        B        In      -         14.218      -         
+OLED12864_inst.oled_dat_RNO                                 LUT4        Z        Out     0.589     14.807      -         
+oled_dat_11                                                 Net         -        -       1.507     -           1         
+OLED12864_inst.oled_dat                                     FD1P3DZ     D        In      -         16.314      -         
+=========================================================================================================================
+Total path delay (propagation time + setup) of 16.469 is 5.137(31.2%) logic and 11.332(68.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      14.008
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.852
+
+    - Propagation time:                      16.293
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.441
+
+    Number of logic level(s):                7
+    Starting point:                          OLED12864_inst.un177_char_reg_cnst_0_0_OLD_e[15] / Q
+    Ending point:                            OLED12864_inst.oled_dat / D
+    The start point is clocked by            lscc_pll_Z1_layer0|outcore_o_inferred_clock [rising] on pin CK
+    The end   point is clocked by            lscc_pll_Z1_layer0|outcore_o_inferred_clock [rising] on pin CK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                 Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+OLED12864_inst.un177_char_reg_cnst_0_0_OLD_e[15]     FD1P3DZ     Q        Out     0.796     0.796       -         
+un177_char_reg_cnst_0_0_OLD[15]                      Net         -        -       1.599     -           1         
+OLED12864_inst.oled_dat_RNO_13                       LUT4        B        In      -         2.395       -         
+OLED12864_inst.oled_dat_RNO_13                       LUT4        Z        Out     0.589     2.984       -         
+N_627_0_0                                            Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_11                       LUT4        C        In      -         4.355       -         
+OLED12864_inst.oled_dat_RNO_11                       LUT4        Z        Out     0.558     4.913       -         
+N_1042_0_0                                           Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_9                        LUT4        A        In      -         6.284       -         
+OLED12864_inst.oled_dat_RNO_9                        LUT4        Z        Out     0.661     6.946       -         
+N_1126_reto_0_0                                      Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_7                        LUT4        A        In      -         8.317       -         
+OLED12864_inst.oled_dat_RNO_7                        LUT4        Z        Out     0.661     8.978       -         
+N_1607_0                                             Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_5                        LUT4        A        In      -         10.349      -         
+OLED12864_inst.oled_dat_RNO_5                        LUT4        Z        Out     0.569     10.918      -         
+oled_dat_11_4_ns_1                                   Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_1                        LUT4        D        In      -         12.289      -         
+OLED12864_inst.oled_dat_RNO_1                        LUT4        Z        Out     0.465     12.754      -         
+N_1604                                               Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO                          LUT4        A        In      -         14.125      -         
+OLED12864_inst.oled_dat_RNO                          LUT4        Z        Out     0.661     14.786      -         
+oled_dat_11                                          Net         -        -       1.507     -           1         
+OLED12864_inst.oled_dat                              FD1P3DZ     D        In      -         16.293      -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 16.448 is 5.116(31.1%) logic and 11.332(68.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      14.008
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.852
+
+    - Propagation time:                      16.293
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.441
+
+    Number of logic level(s):                7
+    Starting point:                          OLED12864_inst.un177_char_reg_cnst_0_0_sr_en_fast / Q
+    Ending point:                            OLED12864_inst.oled_dat / D
+    The start point is clocked by            lscc_pll_Z1_layer0|outcore_o_inferred_clock [rising] on pin CK
+    The end   point is clocked by            lscc_pll_Z1_layer0|outcore_o_inferred_clock [rising] on pin CK
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                        Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+OLED12864_inst.un177_char_reg_cnst_0_0_sr_en_fast           FD1P3DZ     Q        Out     0.796     0.796       -         
+un177_char_reg_cnst_0_0_sr_en_fast                          Net         -        -       1.599     -           17        
+OLED12864_inst.un177_char_reg_cnst_0_1_OLD_e_RNI5D2T[7]     LUT4        A        In      -         2.395       -         
+OLED12864_inst.un177_char_reg_cnst_0_1_OLD_e_RNI5D2T[7]     LUT4        Z        Out     0.661     3.056       -         
+N_693_0                                                     Net         -        -       1.371     -           1         
+OLED12864_inst.char_reg_2_7_0_.g0_5                         LUT4        A        In      -         4.427       -         
+OLED12864_inst.char_reg_2_7_0_.g0_5                         LUT4        Z        Out     0.661     5.089       -         
+N_1706_0                                                    Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_10                              LUT4        C        In      -         6.460       -         
+OLED12864_inst.oled_dat_RNO_10                              LUT4        Z        Out     0.558     7.018       -         
+N_1135_0                                                    Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_7                               LUT4        B        In      -         8.389       -         
+OLED12864_inst.oled_dat_RNO_7                               LUT4        Z        Out     0.589     8.978       -         
+N_1607_0                                                    Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_5                               LUT4        A        In      -         10.349      -         
+OLED12864_inst.oled_dat_RNO_5                               LUT4        Z        Out     0.569     10.918      -         
+oled_dat_11_4_ns_1                                          Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_1                               LUT4        D        In      -         12.289      -         
+OLED12864_inst.oled_dat_RNO_1                               LUT4        Z        Out     0.465     12.754      -         
+N_1604                                                      Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO                                 LUT4        A        In      -         14.125      -         
+OLED12864_inst.oled_dat_RNO                                 LUT4        Z        Out     0.661     14.786      -         
+oled_dat_11                                                 Net         -        -       1.507     -           1         
+OLED12864_inst.oled_dat                                     FD1P3DZ     D        In      -         16.293      -         
+=========================================================================================================================
+Total path delay (propagation time + setup) of 16.448 is 5.116(31.1%) logic and 11.332(68.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      14.008
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.852
+
+    - Propagation time:                      16.283
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.430
+
+    Number of logic level(s):                7
+    Starting point:                          OLED12864_inst.un177_char_reg_cnst_0_0_sr_en_rep1 / Q
+    Ending point:                            OLED12864_inst.oled_dat / D
+    The start point is clocked by            lscc_pll_Z1_layer0|outcore_o_inferred_clock [rising] on pin CK
+    The end   point is clocked by            lscc_pll_Z1_layer0|outcore_o_inferred_clock [rising] on pin CK
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                        Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+OLED12864_inst.un177_char_reg_cnst_0_0_sr_en_rep1           FD1P3DZ     Q        Out     0.796     0.796       -         
+un177_char_reg_cnst_0_0_sr_en_rep1                          Net         -        -       1.599     -           18        
+OLED12864_inst.un177_char_reg_cnst_0_1_OLD_e_RNIEJBQ[6]     LUT4        A        In      -         2.395       -         
+OLED12864_inst.un177_char_reg_cnst_0_1_OLD_e_RNIEJBQ[6]     LUT4        Z        Out     0.661     3.056       -         
+un177_char_reg_cnst_0_1_OLD_e_RNIEJBQ[6]                    Net         -        -       1.371     -           1         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_19_bm[6]         LUT4        A        In      -         4.427       -         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_19_bm[6]         LUT4        Z        Out     0.661     5.089       -         
+char_reg_53_19_bm[6]                                        Net         -        -       1.371     -           1         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_38[6]            LUT4        C        In      -         6.460       -         
+OLED12864_inst.char_reg_2_7_0_.char_reg_53_38[6]            LUT4        Z        Out     0.558     7.018       -         
+N_1134                                                      Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_8                               LUT4        B        In      -         8.389       -         
+OLED12864_inst.oled_dat_RNO_8                               LUT4        Z        Out     0.589     8.978       -         
+N_1608_0                                                    Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_5                               LUT4        B        In      -         10.349      -         
+OLED12864_inst.oled_dat_RNO_5                               LUT4        Z        Out     0.558     10.907      -         
+oled_dat_11_4_ns_1                                          Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO_1                               LUT4        D        In      -         12.278      -         
+OLED12864_inst.oled_dat_RNO_1                               LUT4        Z        Out     0.465     12.743      -         
+N_1604                                                      Net         -        -       1.371     -           1         
+OLED12864_inst.oled_dat_RNO                                 LUT4        A        In      -         14.114      -         
+OLED12864_inst.oled_dat_RNO                                 LUT4        Z        Out     0.661     14.776      -         
+oled_dat_11                                                 Net         -        -       1.507     -           1         
+OLED12864_inst.oled_dat                                     FD1P3DZ     D        In      -         16.283      -         
+=========================================================================================================================
+Total path delay (propagation time + setup) of 16.438 is 5.106(31.1%) logic and 11.332(68.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                                          Arrival           
+Instance                                               Reference     Type      Pin        Net                            Time        Slack 
+                                                       Clock                                                                               
+-------------------------------------------------------------------------------------------------------------------------------------------
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0     System        PDP4K     DO[3]      un4_rd_data_reg_0_0_NEW[0]     0.000       -0.389
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0     System        PDP4K     DO[3]      un4_rd_data_reg_0_0_NEW[0]     0.000       -0.389
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0     System        PDP4K     DO[11]     un4_rd_data_reg_0_0_NEW[1]     0.000       -0.389
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0     System        PDP4K     DO[11]     un4_rd_data_reg_0_0_NEW[1]     0.000       -0.389
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1     System        PDP4K     DO[3]      un4_rd_data_reg_0_1_NEW[0]     0.000       -0.389
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1     System        PDP4K     DO[3]      un4_rd_data_reg_0_1_NEW[0]     0.000       -0.389
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1     System        PDP4K     DO[11]     un4_rd_data_reg_0_1_NEW[1]     0.000       -0.389
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1     System        PDP4K     DO[11]     un4_rd_data_reg_0_1_NEW[1]     0.000       -0.389
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2     System        PDP4K     DO[3]      un4_rd_data_reg_0_2_NEW[0]     0.000       -0.389
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2     System        PDP4K     DO[3]      un4_rd_data_reg_0_2_NEW[0]     0.000       -0.389
+===========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                  Starting                                                                            Required           
+Instance                                                          Reference     Type        Pin     Net                                               Time         Slack 
+                                                                  Clock                                                                                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     System        MAC16       A0      rd_data_reg[0]                                    2.202        -0.389
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     System        MAC16       A1      rd_data_reg[1]                                    2.202        -0.389
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     System        MAC16       A2      rd_data_reg[2]                                    2.202        -0.389
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     System        MAC16       A3      rd_data_reg[3]                                    2.202        -0.389
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     System        MAC16       A4      rd_data_reg[4]                                    2.202        -0.389
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     System        MAC16       A5      rd_data_reg[5]                                    2.202        -0.389
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     System        MAC16       A6      rd_data_reg[6]                                    2.202        -0.389
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     System        MAC16       A7      rd_data_reg[7]                                    2.202        -0.389
+OLED12864_inst.oled_dat                                           System        FD1P3DZ     D       oled_dat_11                                       13.852       -0.118
+pwm_out_obuf                                                      System        OB          I       raw_DDS_inst.pwm_adc_inst.un1_pwm_out_cry_7_i     2.202        1.540 
+=========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2.202
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         2.202
+
+    - Propagation time:                      2.591
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.389
+
+    Number of logic level(s):                2
+    Starting point:                          raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0 / DO[3]
+    Ending point:                            raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0] / A0
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                              Pin       Pin               Arrival     No. of    
+Name                                                              Type      Name      Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0                PDP4K     DO[3]     Out     0.000     0.000       -         
+un4_rd_data_reg_0_0_NEW[0]                                        Net       -         -       0.000     -           1         
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_RNI7FCS        LUT4      C         In      -         0.000       -         
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_RNI7FCS        LUT4      Z         Out     0.558     0.558       -         
+N_32                                                              Net       -         -       1.371     -           1         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_reg_ret_1_RNI9PHP1_0       LUT4      A         In      -         1.929       -         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_reg_ret_1_RNI9PHP1_0       LUT4      Z         Out     0.661     2.591       -         
+rd_data_reg[0]                                                    Net       -         -       0.000     -           1         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     MAC16     A0        In      -         2.591       -         
+==============================================================================================================================
+Total path delay (propagation time + setup) of 2.591 is 1.220(47.1%) logic and 1.371(52.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      2.202
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         2.202
+
+    - Propagation time:                      2.591
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.389
+
+    Number of logic level(s):                2
+    Starting point:                          raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0 / DO[3]
+    Ending point:                            raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0] / A0
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                              Pin       Pin               Arrival     No. of    
+Name                                                              Type      Name      Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0                PDP4K     DO[3]     Out     0.000     0.000       -         
+un4_rd_data_reg_0_0_NEW[0]                                        Net       -         -       0.000     -           1         
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_RNI7FCS        LUT4      C         In      -         0.000       -         
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_RNI7FCS        LUT4      Z         Out     0.558     0.558       -         
+N_32                                                              Net       -         -       1.371     -           1         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_reg_ret_1_RNI9PHP1_0       LUT4      A         In      -         1.929       -         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_reg_ret_1_RNI9PHP1_0       LUT4      Z         Out     0.661     2.591       -         
+rd_data_reg[0]                                                    Net       -         -       0.000     -           1         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     MAC16     A0        In      -         2.591       -         
+==============================================================================================================================
+Total path delay (propagation time + setup) of 2.591 is 1.220(47.1%) logic and 1.371(52.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      2.202
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         2.202
+
+    - Propagation time:                      2.591
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.389
+
+    Number of logic level(s):                2
+    Starting point:                          raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0 / DO[11]
+    Ending point:                            raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0] / A1
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                              Pin        Pin               Arrival     No. of    
+Name                                                              Type      Name       Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0                PDP4K     DO[11]     Out     0.000     0.000       -         
+un4_rd_data_reg_0_0_NEW[1]                                        Net       -          -       0.000     -           1         
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_RNI7FCS_0      LUT4      C          In      -         0.000       -         
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_RNI7FCS_0      LUT4      Z          Out     0.558     0.558       -         
+N_33                                                              Net       -          -       1.371     -           1         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_reg_ret_1_RNI9PHP1         LUT4      A          In      -         1.929       -         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_reg_ret_1_RNI9PHP1         LUT4      Z          Out     0.661     2.591       -         
+rd_data_reg[1]                                                    Net       -          -       0.000     -           1         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     MAC16     A1         In      -         2.591       -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 2.591 is 1.220(47.1%) logic and 1.371(52.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      2.202
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         2.202
+
+    - Propagation time:                      2.591
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.389
+
+    Number of logic level(s):                2
+    Starting point:                          raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0 / DO[11]
+    Ending point:                            raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0] / A1
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                              Pin        Pin               Arrival     No. of    
+Name                                                              Type      Name       Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0                PDP4K     DO[11]     Out     0.000     0.000       -         
+un4_rd_data_reg_0_0_NEW[1]                                        Net       -          -       0.000     -           1         
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_RNI7FCS_0      LUT4      C          In      -         0.000       -         
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_RNI7FCS_0      LUT4      Z          Out     0.558     0.558       -         
+N_33                                                              Net       -          -       1.371     -           1         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_reg_ret_1_RNI9PHP1         LUT4      A          In      -         1.929       -         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_reg_ret_1_RNI9PHP1         LUT4      Z          Out     0.661     2.591       -         
+rd_data_reg[1]                                                    Net       -          -       0.000     -           1         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     MAC16     A1         In      -         2.591       -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 2.591 is 1.220(47.1%) logic and 1.371(52.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      2.202
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         2.202
+
+    - Propagation time:                      2.591
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.389
+
+    Number of logic level(s):                2
+    Starting point:                          raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1 / DO[3]
+    Ending point:                            raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0] / A2
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                              Pin       Pin               Arrival     No. of    
+Name                                                              Type      Name      Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1                PDP4K     DO[3]     Out     0.000     0.000       -         
+un4_rd_data_reg_0_1_NEW[0]                                        Net       -         -       0.000     -           1         
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1_RNI9FCS        LUT4      C         In      -         0.000       -         
+raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1_RNI9FCS        LUT4      Z         Out     0.558     0.558       -         
+N_34                                                              Net       -         -       1.371     -           1         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_reg_ret_1_RNIBPHP1_0       LUT4      A         In      -         1.929       -         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_reg_ret_1_RNIBPHP1_0       LUT4      Z         Out     0.661     2.591       -         
+rd_data_reg[2]                                                    Net       -         -       0.000     -           1         
+raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]     MAC16     A2        In      -         2.591       -         
+==============================================================================================================================
+Total path delay (propagation time + setup) of 2.591 is 1.220(47.1%) logic and 1.371(52.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 175MB peak: 230MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 175MB peak: 230MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: ice40up5ksg48high-performance_1.2v
+Cell usage:
+CCU2_B          120 uses
+FD1P3BZ         10 uses
+FD1P3DZ         501 uses
+GND             12 uses
+INV             24 uses
+PDP4K           11 uses
+PLL_B           1 use
+VCC             12 uses
+MAC16           3 uses
+LUT4            1032 uses
+
+I/O ports: 19
+I/O primitives: 19
+IB             5 uses
+OB             14 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   511 of 5280 (9%)
+
+RAM/ROM usage summary
+Block Rams : 11 of 30 (36%)
+
+Total load per clock:
+   lscc_pll_Z1_layer0|outcore_o_inferred_clock: 522
+
+@S |Mapping Summary:
+Total  LUTs: 1032 (19%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 1032 = 1032 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 36MB peak: 230MB)
+
+Process took 0h:00m:12s realtime, 0h:00m:12s cputime
+# Thu Feb 10 19:10:51 2022
+
+###########################################################]

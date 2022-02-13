@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.0" title="DDS_simple" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" default_implementation="DDS_simple">
+    <Options/>
+    <Implementation title="DDS_simple" dir="DDS_simple" description="DDS_simple" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="top" top="top"/>
+        <Source name="DDS_simple/source/acculator.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DDS_simple/source/bcd_8421.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DDS_simple/source/key_filter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DDS_simple/source/OLED12864.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DDS_simple/source/pwm_adc.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DDS_simple/source/raw_DDS.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DDS_simple/source/state_fsm.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DDS_simple/source/tb_top.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="DDS_simple/source/top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="DDS_simple/source/user_rom8x2k.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="DDS_simple/source/wave_sel.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="pll_sys/pll_sys.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/DDS_simple.ldc" type="LSE Design Constraints File" type_short="LDC">
+            <Options/>
+        </Source>
+        <Source name="source/DDS_simple.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="DDS_simple1.sty"/>
+</RadiantProject>

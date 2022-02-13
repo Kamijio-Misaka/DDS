@@ -1,0 +1,122 @@
+# Thu Feb 10 19:10:37 2022
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1868R, Built Nov 13 2017 02:40:05
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03LR-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\DDS_simple_DDS_simple_scck.rpt 
+Printing clock  summary report in "C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\DDS_simple_DDS_simple_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 104MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 106MB)
+
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing sequential instance OLED12864_inst.char[125] because it is equivalent to instance OLED12864_inst.char[117]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing sequential instance OLED12864_inst.char[117] because it is equivalent to instance OLED12864_inst.char[109]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing sequential instance OLED12864_inst.char[109] because it is equivalent to instance OLED12864_inst.char[101]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing sequential instance OLED12864_inst.char[93] because it is equivalent to instance OLED12864_inst.char[101]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing sequential instance OLED12864_inst.char[85] because it is equivalent to instance OLED12864_inst.char[101]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing sequential instance OLED12864_inst.char[77] because it is equivalent to instance OLED12864_inst.char[101]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing sequential instance OLED12864_inst.char[69] because it is equivalent to instance OLED12864_inst.char[101]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\oled12864.v":81:1:81:6|Removing sequential instance OLED12864_inst.x_ph[4] because it is equivalent to instance OLED12864_inst.y_p[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Making connections to hyper_source modules
+@N: BN397 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\top.v":55:19:55:30|Connected syn_hyper_connect __xmr_use__1_, tag __xmr_tag__4_0_5c66e5d1d49fa612420cddc924045842 to syn_hyper_source raw_DDS_inst.user_rom8x2k_inst.__xmr_decl__0_
+@N: BN397 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\top.v":53:21:53:32|Connected syn_hyper_connect __xmr_use__3_, tag __xmr_tag__2_0_5c66e5d1d49fa612420cddc924045842 to syn_hyper_source raw_DDS_inst.acculator_inst.__xmr_decl__2_
+Ignoring hyper connect with no loads pin:out1[18] inst:__xmr_use__5_ of __hyper__lib__.syn_hyper_connect_24s___xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842_5s_1_13_layer0(verilog),  tag __xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842
+Ignoring hyper connect with no loads pin:out1[19] inst:__xmr_use__5_ of __hyper__lib__.syn_hyper_connect_24s___xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842_5s_1_13_layer0(verilog),  tag __xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842
+Ignoring hyper connect with no loads pin:out1[20] inst:__xmr_use__5_ of __hyper__lib__.syn_hyper_connect_24s___xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842_5s_1_13_layer0(verilog),  tag __xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842
+Ignoring hyper connect with no loads pin:out1[21] inst:__xmr_use__5_ of __hyper__lib__.syn_hyper_connect_24s___xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842_5s_1_13_layer0(verilog),  tag __xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842
+Ignoring hyper connect with no loads pin:out1[22] inst:__xmr_use__5_ of __hyper__lib__.syn_hyper_connect_24s___xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842_5s_1_13_layer0(verilog),  tag __xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842
+Ignoring hyper connect with no loads pin:out1[23] inst:__xmr_use__5_ of __hyper__lib__.syn_hyper_connect_24s___xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842_5s_1_13_layer0(verilog),  tag __xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842
+@N: BN397 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\top.v":49:15:49:26|Connected syn_hyper_connect __xmr_use__5_, tag __xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842 to syn_hyper_source raw_DDS_inst.acculator_inst.__xmr_decl__4_
+@N: BN397 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\top.v":47:16:47:27|Connected syn_hyper_connect __xmr_use__7_, tag __xmr_tag__3_0_5c66e5d1d49fa612420cddc924045842 to syn_hyper_source raw_DDS_inst.user_rom8x2k_inst.__xmr_decl__6_
+@N: BN397 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\top.v":45:20:45:31|Connected syn_hyper_connect __xmr_use__9_, tag __xmr_tag__7_0_5c66e5d1d49fa612420cddc924045842 to syn_hyper_source raw_DDS_inst.__xmr_decl__8_
+@N: BN397 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\top.v":43:20:43:31|Connected syn_hyper_connect __xmr_use__11_, tag __xmr_tag__6_0_5c66e5d1d49fa612420cddc924045842 to syn_hyper_source raw_DDS_inst.__xmr_decl__10_
+@N: BN397 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\top.v":42:18:42:29|Connected syn_hyper_connect __xmr_use__13_, tag __xmr_tag__5_0_5c66e5d1d49fa612420cddc924045842 to syn_hyper_source raw_DDS_inst.__xmr_decl__12_
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\bcd_8421.v":67:1:67:6|Removing sequential instance t_tho_1[4:0] (in view: work.bcd_8421_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\bcd_8421.v":67:1:67:6|Removing sequential instance h_hun_1[4:0] (in view: work.bcd_8421_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+syn_allowed_resources : blockrams=30  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 136MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                           Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                           Frequency     Period        Type         Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                          1.0 MHz       1000.000      system       system_clkgroup           0    
+                                                                                                                                  
+0 -       lscc_pll_Z1_layer0|outcore_o_inferred_clock     99.2 MHz      10.085        inferred     Autoconstr_clkgroup_0     457  
+==================================================================================================================================
+
+@W: MT530 :"c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\bcd_8421.v":29:1:29:6|Found inferred clock lscc_pll_Z1_layer0|outcore_o_inferred_clock which controls 457 sequential elements including OLED12864_inst.bcd_8421_vpp.cnt_shift[4:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\DDS_simple_DDS_simple.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 136MB)
+
+Encoding state machine cnt_init[5:0] (in view: work.OLED12864(verilog))
+original code -> new code
+   00000 -> 000001
+   00001 -> 000010
+   00010 -> 000100
+   00011 -> 001000
+   00100 -> 010000
+   00101 -> 100000
+Encoding state machine state[6:0] (in view: work.OLED12864(verilog))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+Encoding state machine fsm_state[2:0] (in view: work.state_fsm(verilog))
+original code -> new code
+   001 -> 00
+   010 -> 01
+   100 -> 10
+Encoding state machine freq_conf_state[2:0] (in view: work.acculator_2047_2_0_1_3_xmr0(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   011 -> 10
+Encoding state machine state[2:0] (in view: work.user_rom8x2k_2047_1_4_0_1_3_xmr1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 136MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 51MB peak: 137MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb 10 19:10:38 2022
+
+###########################################################]

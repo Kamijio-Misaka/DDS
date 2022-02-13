@@ -1,0 +1,22 @@
+#Start recording tcl command: 2/5/2022 11:41:09
+#Project Location: C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS; Project name: DDS_simple
+prj_create -name "DDS_simple" -impl "DDS_simple" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "synplify"
+prj_add_source "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/DDS_simple.ldc" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/DDS_simple.pdc"
+file copy -force -- "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/acculator.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/bcd_8421.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/key_filter.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/OLED12864.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/pwm_adc.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source"
+file copy -force -- "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/raw_DDS.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/state_fsm.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/tb_top.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/top.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/user_rom8x2k.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source"
+file copy -force -- "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/source/wave_sel.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source"
+prj_add_source "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/acculator.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/bcd_8421.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/key_filter.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/OLED12864.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/pwm_adc.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/raw_DDS.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/state_fsm.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/tb_top.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/top.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/user_rom8x2k.v" "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/wave_sel.v"
+prj_save 
+prj_run Synthesis -impl DDS_simple
+prj_add_source "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/pll_sys/pll_sys.ipx"
+prj_run Synthesis -impl DDS_simple
+prj_syn_sim_source -src "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source/tb_top.v" SimulateOnly
+prj_run Synthesis -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Map -impl DDS_simple
+prj_run PAR -impl DDS_simple
+prj_run Export -impl DDS_simple
+launch_synplify_prj
+prj_set_strategy_value -strategy Strategy1 bit_out_format=rbt
+prj_run Export -impl DDS_simple
+#Stop recording: 2/5/2022 15:25:59

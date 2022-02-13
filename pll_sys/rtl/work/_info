@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/pll_sys/rtl
+vlscc_pll
+Z1 !s110 1644302659
+!i10b 1
+!s100 IiNd^Io1m:_>5Ze0][bho0
+ImdgSg7=Ez>Rm]hoL1PA161
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1508495067
+8core/lscc_pll.v
+Fcore/lscc_pll.v
+L0 56
+Z3 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z4 !s108 1644302659.000000
+!s107 core/lscc_pll.v|c:\users\11091\appdata\local\temp\tmpj5sr7g.v|
+Z5 !s90 c:\users\11091\appdata\local\temp\tmpj5sr7g.v|
+!i113 1
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+vpll_sys
+R1
+!i10b 1
+!s100 RU=T]mLDBPcKE0D;g:[A22
+I7G?BI_FVJR@OC]d20]MnD3
+R2
+R0
+w1644302659
+8c:\users\11091\appdata\local\temp\tmpj5sr7g.v
+Fc:\users\11091\appdata\local\temp\tmpj5sr7g.v
+L0 13
+R3
+r1
+!s85 0
+31
+R4
+Z8 !s107 core/lscc_pll.v|c:\users\11091\appdata\local\temp\tmpj5sr7g.v|
+R5
+!i113 1
+R6
+R7

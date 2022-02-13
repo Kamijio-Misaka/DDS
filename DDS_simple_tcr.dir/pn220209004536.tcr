@@ -1,0 +1,55 @@
+#Start recording tcl command: 2/8/2022 14:26:48
+#Project Location: C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS; Project name: DDS_simple
+prj_open "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple.rdf"
+prj_run Synthesis -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Map -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+launch_synplify_prj
+prj_run Map -impl DDS_simple
+prj_run PAR -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+launch_synplify_prj
+prj_run PAR -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Map -impl DDS_simple
+prj_run PAR -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Map -impl DDS_simple
+prj_run PAR -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Synthesis -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+prj_run Export -impl DDS_simple
+#Stop recording: 2/9/2022 00:45:36

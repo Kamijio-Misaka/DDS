@@ -1,0 +1,18 @@
+@P:  Worst Slack : -2.472
+@P:  lscc_pll_Z1_layer0|outcore_o_inferred_clock - Estimated Frequency : 60.7 MHz
+@P:  lscc_pll_Z1_layer0|outcore_o_inferred_clock - Requested Frequency : 71.4 MHz
+@P:  lscc_pll_Z1_layer0|outcore_o_inferred_clock - Estimated Period : 16.479
+@P:  lscc_pll_Z1_layer0|outcore_o_inferred_clock - Requested Period : 14.008
+@P:  lscc_pll_Z1_layer0|outcore_o_inferred_clock - Slack : -2.472
+@P:  System - Estimated Frequency : 386.0 MHz
+@P:  System - Requested Frequency : 454.1 MHz
+@P:  System - Estimated Period : 2.591
+@P:  System - Requested Period : 2.202
+@P:  System - Slack : -0.389
+@P: top Part : ice40up5ksg48high-performance_1.2v
+@P: top I/O primitives : 19
+@P: top I/O Register bits : 0
+@P: top Register bits (Non I/O) : 511 (9%)
+@P: top Block Rams : 11 of 30 (36%)
+@P: top Total Luts : 1032 of 5280 (19%)
+@P:  CPU Time : 0h:00m:12s

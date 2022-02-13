@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the area information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="1" name="Area Summary">
+<report_link name="Detailed report">
+<data>C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\synlog\report\DDS_simple_DDS_simple_fpga_mapper_resourceusage.rpt</data>
+<title>Resource Usage</title>
+</report_link>
+<parameter tooltip="Total PADS used" name="PADS">
+<data>19</data>
+</parameter>
+<parameter tooltip="Total FLOPS used" name="FLOPS">
+<data>511</data>
+</parameter>
+<parameter tcl_name="v_ram" tooltip="Total RAMS used" name="RAMS">
+<data>11</data>
+</parameter>
+<parameter tooltip="Total CARRYS used" name="CARRYS">
+<data>120</data>
+</parameter>
+<parameter tcl_name="total_luts" tooltip="Total LUTS used" name="LUTS">
+<data>1032</data>
+</parameter>
+</report_table>

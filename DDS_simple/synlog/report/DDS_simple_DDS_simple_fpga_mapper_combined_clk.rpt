@@ -1,0 +1,21 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 522 clock pin(s) of sequential element(s)
+0 instances converted, 522 sequential instances remain driven by gated/generated clocks
+
+============================================================================================================================== Gated/Generated Clocks ===============================================================================================================================
+Clock Tree ID     Driving Element                                     Drive Element Type     Fanout     Sample Instance                                Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       raw_DDS_inst.pll_sys_inst.lscc_pll_inst.u_PLL_B     PLL_B                  522        raw_DDS_inst.user_rom8x2k_inst.state_er[1]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=====================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

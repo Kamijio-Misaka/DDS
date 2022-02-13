@@ -1,0 +1,5 @@
+#XMR Information
+xmrdecl work acculator 18 25 23 
+xmrdecl work user_rom8x2k 26 25 23 
+xmrdecl work raw_DDS 23 25 
+xmruse work top 25 23 

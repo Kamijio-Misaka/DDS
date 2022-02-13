@@ -1,0 +1,17 @@
+POSTSYN: Post Synthesis Process Radiant (64-bit) 1.0.0.350.6
+Command Line: postsyn -a iCE40UP -p iCE40UP5K -t SG48 -sp High-Performance_1.2V -oc Industrial -top -w -o DDS_simple_DDS_simple.udb -gui -msgset C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/promote.xml DDS_simple_DDS_simple.vm 
+   Architecture:     iCE40UP
+   Device:           iCE40UP5K
+   Package:          SG48
+   Performance:      High-Performance_1.2V
+Reading input file 'DDS_simple_DDS_simple.vm' ...
+
+Loading device for application udb from file 'itpa08.nph' in environment: G:/lattice/radiant/ispfpga.
+Starting design annotation....
+
+
+Writing output file 'DDS_simple_DDS_simple.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 2 secs 
+Total REAL Time: 4 secs 
+Peak Memory Usage: 95 MB

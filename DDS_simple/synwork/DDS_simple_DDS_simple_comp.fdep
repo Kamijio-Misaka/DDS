@@ -1,0 +1,164 @@
+#OPTIONS:"|-mixedhdl|-modhint|C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\synwork\\_verilog_hintfile|-top|top|-layerid|0|-orig_srs|C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\synwork\\DDS_simple_DDS_simple_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS|-I|C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\pll_sys|-I|C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\|-I|G:\\lattice\\radiant\\synpbase\\lib|-v2001|-devicelib|G:\\lattice\\radiant\\synpbase\\lib\\generic\\ice40up.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"G:\\lattice\\radiant\\synpbase\\bin64\\c_ver.exe":1513353474
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\synwork\\_verilog_hintfile":1644032473
+#CUR:"G:\\lattice\\radiant\\synpbase\\lib\\generic\\ice40up.v":1513353490
+#CUR:"G:\\lattice\\radiant\\synpbase\\lib\\vlog\\hypermods.v":1513353510
+#CUR:"G:\\lattice\\radiant\\synpbase\\lib\\vlog\\umr_capim.v":1513353510
+#CUR:"G:\\lattice\\radiant\\synpbase\\lib\\vlog\\scemi_objects.v":1513353510
+#CUR:"G:\\lattice\\radiant\\synpbase\\lib\\vlog\\scemi_pipes.svh":1513353510
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\pmi.v":1517537440
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\pmi_add.v":1510103546
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\../common/adder/rtl/lscc_adder.v":1509782142
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\pmi_complex_mult.v":1510103546
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\../common/complex_mult/rtl/lscc_complex_mult.v":1509782143
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\pmi_dsp.v":1515569773
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\pmi_mac.v":1510103547
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\../common/mult_accumulate/rtl/lscc_mult_accumulate.v":1510017480
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\pmi_multaddsub.v":1510103546
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\../common/mult_add_sub/rtl/lscc_mult_add_sub.v":1509782144
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\pmi_mult.v":1510103546
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\../common/multiplier/rtl/lscc_multiplier.v":1509782145
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\pmi_ram_dp.v":1509782147
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\../common/ram_dp/rtl/lscc_ram_dp.v":1510192101
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\pmi_ram_dq.v":1509782148
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\../common/ram_dq/rtl/lscc_ram_dq.v":1510192101
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\pmi_sub.v":1510103546
+#CUR:"G:\\lattice\\radiant\\ip\\pmi\\../common/subtractor/rtl/lscc_subtractor.v":1509782146
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\source\\acculator.v":1644324227
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\source\\bcd_8421.v":1643017728
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\source\\key_filter.v":1643377566
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\source\\OLED12864.v":1644323903
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\source\\pwm_adc.v":1644313527
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\source\\raw_DDS.v":1644489518
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\source\\state_fsm.v":1643528043
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\source\\top.v":1644491429
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\source\\user_rom8x2k.v":1644490677
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\DDS_simple\\source\\wave_sel.v":1643033830
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\pll_sys\\rtl\\pll_sys.v":1644032581
+#CUR:"C:\\Users\\11091\\Desktop\\FPGA_Active_By_yinghe\\my_prj\\simple_DDS\\DDS\\pll_sys\\rtl\\core/lscc_pll.v":1508495067
+#CUR:"C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/MAT/sin_data.txt":1643023079
+#CUR:"C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/MAT/triangle_data.txt":1643130283
+#CUR:"C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/MAT/square_data.txt":1643195061
+0			"G:\lattice\radiant\ip\pmi\pmi.v" verilog
+1		*	"G:\lattice\radiant\ip\pmi\pmi_add.v" verilog
+2		*	"G:\lattice\radiant\ip\pmi\../common/adder/rtl\lscc_adder.v" verilog
+3		*	"G:\lattice\radiant\ip\pmi\pmi_complex_mult.v" verilog
+4		*	"G:\lattice\radiant\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" verilog
+5		*	"G:\lattice\radiant\ip\pmi\pmi_dsp.v" verilog
+6		*	"G:\lattice\radiant\ip\pmi\pmi_mac.v" verilog
+7		*	"G:\lattice\radiant\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" verilog
+8		*	"G:\lattice\radiant\ip\pmi\pmi_multaddsub.v" verilog
+9		*	"G:\lattice\radiant\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" verilog
+10		*	"G:\lattice\radiant\ip\pmi\pmi_mult.v" verilog
+11		*	"G:\lattice\radiant\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" verilog
+12		*	"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v" verilog
+13		*	"G:\lattice\radiant\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" verilog
+14		*	"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v" verilog
+15		*	"G:\lattice\radiant\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" verilog
+16		*	"G:\lattice\radiant\ip\pmi\pmi_sub.v" verilog
+17		*	"G:\lattice\radiant\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" verilog
+18			"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v" verilog
+19			"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v" verilog
+20			"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\key_filter.v" verilog
+21			"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v" verilog
+22			"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\pwm_adc.v" verilog
+23			"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v" verilog
+24			"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\state_fsm.v" verilog
+25			"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v" verilog
+26			"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v" verilog
+27			"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\wave_sel.v" verilog
+28			"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\pll_sys\rtl\pll_sys.v" verilog
+29		*	"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\pll_sys\rtl\core\lscc_pll.v" verilog
+#Dependency Lists(Uses List)
+0 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+1 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 0
+2 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 1 0
+3 17 16 15 14 13 12 11 10 9 8 7 6 5 4 2 1 0
+4 17 16 15 14 13 12 11 10 9 8 7 6 5 3 2 1 0
+5 17 16 15 14 13 12 11 10 9 8 7 6 4 3 2 1 0
+6 17 16 15 14 13 12 11 10 9 8 7 5 4 3 2 1 0
+7 17 16 15 14 13 12 11 10 9 8 6 5 4 3 2 1 0
+8 17 16 15 14 13 12 11 10 9 7 6 5 4 3 2 1 0
+9 0 17 16 15 14 13 12 11 10 8 7 6 5 4 3 2 1
+10 17 16 15 14 13 12 11 9 8 7 6 5 4 3 2 1 0
+11 0 17 16 15 14 13 12 10 9 8 7 6 5 4 3 2 1
+12 17 16 15 14 13 11 10 9 8 7 6 5 4 3 2 1 0
+13 17 16 15 14 12 11 10 9 8 7 6 5 4 3 2 1 0
+14 17 16 15 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+15 17 16 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+16 17 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+18 -1
+19 -1
+20 -1
+21 19
+22 -1
+23 22 20 26 18 29 28 24
+24 -1
+25 21 18 26 23
+26 -1
+27 -1
+28 29
+29 28
+#Dependency Lists(Users Of)
+0 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+1 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 0
+2 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 1 0
+3 17 16 15 14 13 12 11 10 9 8 7 6 5 4 2 1 0
+4 17 16 15 14 13 12 11 10 9 8 7 6 5 3 2 1 0
+5 17 16 15 14 13 12 11 10 9 8 7 6 4 3 2 1 0
+6 17 16 15 14 13 12 11 10 9 8 7 5 4 3 2 1 0
+7 17 16 15 14 13 12 11 10 9 8 6 5 4 3 2 1 0
+8 17 16 15 14 13 12 11 10 9 7 6 5 4 3 2 1 0
+9 17 16 15 14 13 12 11 10 8 7 6 5 4 3 2 1 0
+10 17 16 15 14 13 12 11 9 8 7 6 5 4 3 2 1 0
+11 17 16 15 14 13 12 10 9 8 7 6 5 4 3 2 1 0
+12 17 16 15 14 13 11 10 9 8 7 6 5 4 3 2 1 0
+13 17 16 15 14 12 11 10 9 8 7 6 5 4 3 2 1 0
+14 17 16 15 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+15 17 16 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+16 17 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+18 25 23
+19 21
+20 23
+21 25
+22 23
+23 25
+24 23
+25 -1
+26 25 23
+27 -1
+28 29 23
+29 28 23
+#Design Unit to File Association
+module work lscc_pll 29
+module work top 25
+module work raw_DDS 23
+module work user_rom8x2k 26
+module work pll_sys 28
+module work state_fsm 24
+module work pwm_adc 22
+module work OLED12864 21
+module work key_filter 20
+module work bcd_8421 19
+module work acculator 18
+module work pmi_sub 16
+module work lscc_subtractor 17
+module work pmi_ram_dq 14
+module work lscc_ram_dq 15
+module work pmi_ram_dp 12
+module work lscc_ram_dp 13
+module work pmi_mult 10
+module work pmi_multaddsub 8
+module work pmi_mac 6
+module work lscc_mult_accumulate 7
+module work pmi_dsp 5
+module work pmi_complex_mult 3
+module work lscc_multiplier_dsp 4
+module work lscc_multiplier_lut 4
+module work lscc_multiplier 4
+module work lscc_complex_mult 4
+module work lscc_mult_add_sub 4
+module work pmi_add 1
+module work lscc_adder 2

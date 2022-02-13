@@ -1,0 +1,262 @@
+#Build: Synplify Pro (R) M-2017.03LR-SP1-1, Build 229R, Nov 10 2017
+#install: G:\lattice\radiant\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-IDFM759S
+
+# Sat Feb  5 11:41:13 2022
+
+#Implementation: DDS_simple
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 338R, built Nov 10 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 338R, built Nov 10 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"G:\lattice\radiant\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+Pre Loading Built-In Library pmi ...
+@N:Can't find top module!
+Top entity isn't set yet!
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+
+Process completed successfully.
+# Sat Feb  5 11:41:13 2022
+
+###########################################################]
+Synopsys Verilog Compiler, version comp2017q2p1, Build 338R, built Nov 10 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"G:\lattice\radiant\synpbase\lib\generic\ice40up.v" (library work)
+@I::"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"G:\lattice\radiant\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"G:\lattice\radiant\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"G:\lattice\radiant\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"G:\lattice\radiant\ip\pmi\pmi.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_add.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_add.v":"G:\lattice\radiant\ip\pmi\../common/adder/rtl\lscc_adder.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_complex_mult.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_complex_mult.v":"G:\lattice\radiant\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_complex_mult.v":89:11:89:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_complex_mult.v":98:11:98:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_dsp.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_mac.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_mac.v":"G:\lattice\radiant\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_mac.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_mac.v":106:11:106:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_multaddsub.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_multaddsub.v":"G:\lattice\radiant\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_multaddsub.v":88:11:88:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_multaddsub.v":97:11:97:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_mult.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_mult.v":"G:\lattice\radiant\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_mult.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_mult.v":93:11:93:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v":"G:\lattice\radiant\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v":95:11:95:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v":150:11:150:22|Read directive translate_on.
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v":194:11:194:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v":201:11:201:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v":"G:\lattice\radiant\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v":82:11:82:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v":91:11:91:22|Read directive translate_on.
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v":129:11:129:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v":136:11:136:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_sub.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_sub.v":"G:\lattice\radiant\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\key_filter.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\pwm_adc.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\state_fsm.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\tb_top.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\wave_sel.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+
+Process completed successfully.
+# Sat Feb  5 11:41:13 2022
+
+###########################################################]
+@I::"G:\lattice\radiant\synpbase\lib\generic\ice40up.v" (library work)
+@I::"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"G:\lattice\radiant\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"G:\lattice\radiant\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"G:\lattice\radiant\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"G:\lattice\radiant\ip\pmi\pmi.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_add.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_add.v":"G:\lattice\radiant\ip\pmi\../common/adder/rtl\lscc_adder.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_complex_mult.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_complex_mult.v":"G:\lattice\radiant\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_complex_mult.v":89:11:89:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_complex_mult.v":98:11:98:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_dsp.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_mac.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_mac.v":"G:\lattice\radiant\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_mac.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_mac.v":106:11:106:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_multaddsub.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_multaddsub.v":"G:\lattice\radiant\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_multaddsub.v":88:11:88:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_multaddsub.v":97:11:97:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_mult.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_mult.v":"G:\lattice\radiant\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_mult.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_mult.v":93:11:93:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v":"G:\lattice\radiant\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v":95:11:95:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v":150:11:150:22|Read directive translate_on.
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v":194:11:194:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_ram_dp.v":201:11:201:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v":"G:\lattice\radiant\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" (library work)
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v":82:11:82:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v":91:11:91:22|Read directive translate_on.
+@N: CG334 :"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v":129:11:129:23|Read directive translate_off.
+@N: CG333 :"G:\lattice\radiant\ip\pmi\pmi_ram_dq.v":136:11:136:22|Read directive translate_on.
+@I:"G:\lattice\radiant\ip\pmi\pmi.v":"G:\lattice\radiant\ip\pmi\pmi_sub.v" (library work)
+@I:"G:\lattice\radiant\ip\pmi\pmi_sub.v":"G:\lattice\radiant\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\key_filter.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\pwm_adc.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\state_fsm.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\tb_top.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v" (library work)
+@I::"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\wave_sel.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\state_fsm.v":1:7:1:15|Synthesizing module state_fsm in library work.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\state_fsm.v":29:16:29:24|Removing redundant assignment.
+@W: CG309 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\state_fsm.v":15:1:15:6|Could not find module with name pll_sys, performing a case compare ...
+
+@W: CG311 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\state_fsm.v":15:1:15:6|Module with name pll_sys could not be found even with a case compare
+
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v":1:7:1:15|Synthesizing module acculator in library work.
+
+	OUTCNT_MAX=11'b11111111111
+	FREQMODE=3'b010
+	FREQ_CONF_L=2'b00
+	FREQ_CONF_M=2'b01
+	FREQ_CONF_H=2'b11
+   Generated name = acculator_2047_2_0_1_3
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000011000
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001100010101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_24s___xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842_1_layer0
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v":32:22:32:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v":49:16:49:24|Removing redundant assignment.
+@W: CL113 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v":37:1:37:6|Feedback mux created for signal freq_byte[15:14]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL250 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v":37:1:37:6|All reachable assignments to freq_byte[15:14] assign 0, register removed by optimization
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":1:7:1:18|Synthesizing module user_rom8x2k in library work.
+
+	ROM_DEPTH=11'b11111111111
+	WAVEMODE=3'b001
+	VPPMODE=3'b100
+	SIN=2'b00
+	TRIANGLE=2'b01
+	SQUARE=2'b11
+   Generated name = user_rom8x2k_2047_1_4_0_1_3
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000010
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001100100101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_2s___xmr_tag__2_0_5c66e5d1d49fa612420cddc924045842_2_layer0
+@W: CG532 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":19:0:19:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":43:11:43:15|Removing redundant assignment.
+@W: CL177 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":53:23:53:45|Sharing sequential element un2_rd_data_o. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\key_filter.v":1:7:1:16|Synthesizing module key_filter in library work.
+
+	CNT_MAX=21'b100100100111101111111
+   Generated name = key_filter_1199999
+@W: CL169 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\key_filter.v":16:4:16:9|Pruning unused register cnt[19:0]. Make sure that there are no unused intermediate registers.
+@W: CL207 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\key_filter.v":29:4:29:9|All reachable assignments to key_flag assign 1, register removed by optimization.
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\key_filter.v":1:7:1:16|Synthesizing module key_filter in library work.
+
+	CNT_MAX=21'b001111010000100011111
+   Generated name = key_filter_499999
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\pwm_adc.v":1:7:1:13|Synthesizing module pwm_adc in library work.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\pwm_adc.v":42:13:42:19|Removing redundant assignment.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\pwm_adc.v":64:17:64:27|Removing redundant assignment.
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":1:7:1:13|Synthesizing module raw_DDS in library work.
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001100110101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_1s___xmr_tag__3_0_5c66e5d1d49fa612420cddc924045842_3_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101000101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_1s___xmr_tag__4_0_5c66e5d1d49fa612420cddc924045842_4_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000011
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101010101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_3s___xmr_tag__5_0_5c66e5d1d49fa612420cddc924045842_5_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101100101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_1s___xmr_tag__6_0_5c66e5d1d49fa612420cddc924045842_6_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101110101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_1s___xmr_tag__7_0_5c66e5d1d49fa612420cddc924045842_7_layer0
+@W: CG309 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Could not find module with name pll_sys, performing a case compare ...
+
+@W: CG311 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Module with name pll_sys could not be found even with a case compare
+
+@W: CG309 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Could not find module with name pll_sys, performing a case compare ...
+
+@W: CG311 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Module with name pll_sys could not be found even with a case compare
+
+@W: CG309 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Could not find module with name pll_sys, performing a case compare ...
+
+@W: CG311 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Module with name pll_sys could not be found even with a case compare
+
+@W: CG309 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Could not find module with name pll_sys, performing a case compare ...
+
+@W: CG311 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Module with name pll_sys could not be found even with a case compare
+
+@W: CG141 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Creating black box for pll_sys
+Making port ref_clk_i a bidir
+Making port rst_n_i a bidir
+Making port lock_o a bidir
+Making port outcore_o a bidir
+Making port outglobal_o a bidir
+@E: CG389 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Reference to undefined module pll_sys
+@E: CG389 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Illegal or Unsupported Syntax within black box. Use: // synthesis translate_off {  unsupported Verilog } // synthesis translate_on 
+@E: CG389 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Alternatively, set the builtin compiler directive IGNORE_VERILOG_BLACKBOX_GUTS in the Verilog tab of the UI or set `define IGNORE_VERILOG_BLACKBOX_GUTS in any Verilog file.
+# Sat Feb  5 11:41:14 2022
+
+###########################################################]
+@E::Errors while synthesizing top module tb_top.
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Feb  5 11:41:14 2022
+
+###########################################################]

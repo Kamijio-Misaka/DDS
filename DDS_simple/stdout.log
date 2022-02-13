@@ -1,0 +1,20 @@
+Running in Lattice mode
+
+Starting:    G:\lattice\radiant\synpbase\bin64\mbin\synplify.exe
+Install:     G:\lattice\radiant\synpbase
+Hostname:    LAPTOP-IDFM759S
+Date:        Fri Feb 11 19:00:51 2022
+Version:     M-2017.03LR-SP1-1
+
+Arguments:   -product synplify_pro -tcl C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/launch_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+No project opened.
+"force_gsr" is unrecognized option for current device
+TCL script complete: "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/launch_synplify.tcl"
+FSM Viewer - register encodings from synthesized design are available
+exit status=0

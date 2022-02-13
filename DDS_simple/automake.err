@@ -1,0 +1,32 @@
+@E: CG389 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Reference to undefined module pll_sys
+@E: CG389 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Illegal or Unsupported Syntax within black box. Use: // synthesis translate_off {  unsupported Verilog } // synthesis translate_on 
+@E: CG389 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":39:8:39:19|Alternatively, set the builtin compiler directive IGNORE_VERILOG_BLACKBOX_GUTS in the Verilog tab of the UI or set `define IGNORE_VERILOG_BLACKBOX_GUTS in any Verilog file.
+@E::Errors while synthesizing top module tb_top.
+@E: CS109 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":47:1:47:6|Expecting module level statement
+@E::Verilog compiler failed
+@E: CS110 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":54:2:54:2|Expecting terminal list
+@E: CS187 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":71:0:71:8|Expecting endmodule
+@E::Verilog compiler failed
+@E: CS110 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":54:2:54:2|Expecting terminal list
+@E: CS187 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":71:0:71:8|Expecting endmodule
+@E::Verilog compiler failed
+@E: CS110 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":54:2:54:2|Expecting terminal list
+@E: CS187 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":71:0:71:8|Expecting endmodule
+@E::Verilog compiler failed
+@E: CS110 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":54:2:54:2|Expecting terminal list
+@E: CS187 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":71:0:71:8|Expecting endmodule
+@E::Verilog compiler failed
+@E: CS110 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":54:2:54:2|Expecting terminal list
+@E: CS187 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":71:0:71:8|Expecting endmodule
+@E::Verilog compiler failed
+@E: CS179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\pwm_adc.v":53:7:53:13|Assignment target pwm_out must be a net type
+@E::Verilog compiler failed
+@E: CG426 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":50:2:50:10|Assignment target rd_data_o must be of type reg or genvar
+@E::Verilog compiler failed
+@E: CS187 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":74:0:74:2|Expecting ;
+@E: CS187 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":77:0:77:8|Expecting endmodule
+@E::Verilog compiler failed
+@E: CS153 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":72:12:72:12|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":72:12:72:12|Illegal or Unsupported Syntax within black box. Use: // synthesis translate_off {  unsupported Verilog } // synthesis translate_on 
+@E: CS153 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":72:12:72:12|Alternatively, set the builtin compiler directive IGNORE_VERILOG_BLACKBOX_GUTS in the Verilog tab of the UI or set `define IGNORE_VERILOG_BLACKBOX_GUTS in any Verilog file.
+@E::Errors while synthesizing top module top.

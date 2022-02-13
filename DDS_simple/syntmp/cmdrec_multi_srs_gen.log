@@ -1,0 +1,7 @@
+G:\lattice\radiant\synpbase\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\synwork\DDS_simple_DDS_simple_comp.srs  -osyn  C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\synwork\DDS_simple_DDS_simple_mult.srs  -log  C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\synlog\DDS_simple_DDS_simple_multi_srs_gen.srr 
+relcom:G:\lattice\radiant\synpbase\bin64\syn_nfilter.exe -link -top top -multisrs ..\synwork\DDS_simple_DDS_simple_comp.srs -osyn ..\synwork\DDS_simple_DDS_simple_mult.srs -log ..\synlog\DDS_simple_DDS_simple_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\DDS_simple_DDS_simple_comp.srs|io:i|time:1644491435|size:93341|exec:0|csum:B8004F07C0E5C70B6DD95DD06F4B0B83
+file:..\synwork\DDS_simple_DDS_simple_mult.srs|io:o|time:1644491437|size:25626|exec:0|csum:
+file:..\synlog\DDS_simple_DDS_simple_multi_srs_gen.srr|io:o|time:1644491437|size:554|exec:0|csum:
+file:G:\lattice\radiant\synpbase\bin64\syn_nfilter.exe|io:i|time:1513353476|size:8865792|exec:1|csum:8193D59C4FC68D2D01C64740EE074FF8

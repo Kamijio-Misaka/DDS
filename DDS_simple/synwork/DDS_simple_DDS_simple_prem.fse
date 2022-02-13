@@ -1,0 +1,64 @@
+
+fsm_encoding {26811812} onehot
+
+fsm_state_encoding {26811812} 00000 {000001}
+
+fsm_state_encoding {26811812} 00001 {000010}
+
+fsm_state_encoding {26811812} 00010 {000100}
+
+fsm_state_encoding {26811812} 00011 {001000}
+
+fsm_state_encoding {26811812} 00100 {010000}
+
+fsm_state_encoding {26811812} 00101 {100000}
+
+fsm_registers {26811812} {cnt_init[5]}  {cnt_init[4]}  {cnt_init[3]}  {cnt_init[2]}  {cnt_init[1]}  {cnt_init[0]} 
+
+fsm_encoding {26811811} onehot
+
+fsm_state_encoding {26811811} IDLE {0000001}
+
+fsm_state_encoding {26811811} MAIN {0000010}
+
+fsm_state_encoding {26811811} INIT {0000100}
+
+fsm_state_encoding {26811811} SCAN {0001000}
+
+fsm_state_encoding {26811811} WRITE {0010000}
+
+fsm_state_encoding {26811811} DELAY {0100000}
+
+fsm_state_encoding {26811811} CHINESE {1000000}
+
+fsm_registers {26811811} {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {29151155} sequential
+
+fsm_state_encoding {29151155} WAVEMODE {00}
+
+fsm_state_encoding {29151155} FREQMODE {01}
+
+fsm_state_encoding {29151155} VPPMODE {10}
+
+fsm_registers {29151155} {fsm_state[1]}  {fsm_state[0]} 
+
+fsm_encoding {23201204} sequential
+
+fsm_state_encoding {23201204} 000 {00}
+
+fsm_state_encoding {23201204} 001 {01}
+
+fsm_state_encoding {23201204} 011 {10}
+
+fsm_registers {23201204} {freq_conf_state[1]}  {freq_conf_state[0]} 
+
+fsm_encoding {31310313} sequential
+
+fsm_state_encoding {31310313} SIN {00}
+
+fsm_state_encoding {31310313} TRIANGLE {01}
+
+fsm_state_encoding {31310313} SQUARE {10}
+
+fsm_registers {31310313} {state[1]}  {state[0]} 

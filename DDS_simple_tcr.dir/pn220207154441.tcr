@@ -1,0 +1,5 @@
+#Start recording tcl command: 2/7/2022 12:27:58
+#Project Location: C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS; Project name: DDS_simple
+prj_open "C:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple.rdf"
+prj_run Export -impl DDS_simple
+#Stop recording: 2/7/2022 15:44:41

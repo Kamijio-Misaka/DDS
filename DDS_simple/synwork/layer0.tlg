@@ -1,0 +1,462 @@
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\state_fsm.v":1:7:1:15|Synthesizing module state_fsm in library work.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\state_fsm.v":29:16:29:24|Removing redundant assignment.
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\generic\ice40up.v":438:7:438:11|Synthesizing module PLL_B in library work.
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\pll_sys\rtl\core\lscc_pll.v":56:7:56:14|Synthesizing module lscc_pll in library work.
+
+	DIVR=8'b00110000
+	DIVF=16'b0011011000110011
+	DIVQ=8'b00110100
+	FEEDBACK_PATH=48'b010100110100100101001101010100000100110001000101
+	FILTER_RANGE=8'b00110001
+	DELAY_ADJUSTMENT_MODE_FEEDBACK=40'b0100011001001001010110000100010101000100
+	FDA_FEEDBACK=8'b00110000
+	DELAY_ADJUSTMENT_MODE_RELATIVE=40'b0100011001001001010110000100010101000100
+	FDA_RELATIVE=8'b00110000
+	SHIFTREG_DIV_MODE=8'b00110000
+	PLLOUT_SELECT_PORTA=48'b010001110100010101001110010000110100110001001011
+	PLLOUT_SELECT_PORTB=48'b010001110100010101001110010000110100110001001011
+	EXTERNAL_DIVIDE_FACTOR=32'b01001110010011110100111001000101
+	ENABLE_ICEGATE_PORTA=8'b00110000
+	ENABLE_ICEGATE_PORTB=8'b00110000
+	FREQUENCY_PIN_REFERENCECLK=72'b001100010011001000101110001100000011000000110000001100000011000000110000
+   Generated name = lscc_pll_Z1_layer0
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\pll_sys\rtl\pll_sys.v":13:7:13:13|Synthesizing module pll_sys in library work.
+@W: CG781 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\pll_sys\rtl\pll_sys.v":46:15:46:15|Input sclk_i on instance lscc_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\pll_sys\rtl\pll_sys.v":47:14:47:14|Input sdi_i on instance lscc_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v":1:7:1:15|Synthesizing module acculator in library work.
+
+	OUTCNT_MAX=11'b11111111111
+	FREQMODE=3'b010
+	FREQ_CONF_L=2'b00
+	FREQ_CONF_M=2'b01
+	FREQ_CONF_H=2'b11
+   Generated name = acculator_2047_2_0_1_3
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000011000
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001100010101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_24s___xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842_2_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000011
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001100100101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_3s___xmr_tag__2_0_5c66e5d1d49fa612420cddc924045842_3_layer0
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v":32:22:32:36|Removing redundant assignment.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v":49:16:49:24|Removing redundant assignment.
+@W: CL113 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v":37:1:37:6|Feedback mux created for signal freq_byte[15:14]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL250 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v":37:1:37:6|All reachable assignments to freq_byte[15:14] assign 0, register removed by optimization
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":1:7:1:18|Synthesizing module user_rom8x2k in library work.
+
+	ROM_DEPTH=11'b11111111111
+	WAVEMODE=3'b001
+	VPPMODE=3'b100
+	SIN=2'b00
+	TRIANGLE=2'b01
+	SQUARE=2'b11
+   Generated name = user_rom8x2k_2047_1_4_0_1_3
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000010
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001100110101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_2s___xmr_tag__3_0_5c66e5d1d49fa612420cddc924045842_4_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000001000
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101000101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_8s___xmr_tag__4_0_5c66e5d1d49fa612420cddc924045842_5_layer0
+@W: CG532 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":20:0:20:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":44:11:44:15|Removing redundant assignment.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":71:17:71:27|Removing redundant assignment.
+@W: CL177 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":55:25:55:47|Sharing sequential element un2_rd_data_reg. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\key_filter.v":1:7:1:16|Synthesizing module key_filter in library work.
+
+	CNT_MAX=21'b001111010000100011111
+   Generated name = key_filter_499999
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\pwm_adc.v":1:7:1:13|Synthesizing module pwm_adc in library work.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\pwm_adc.v":47:13:47:19|Removing redundant assignment.
+@A: CL282 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\pwm_adc.v":40:0:40:5|Feedback mux created for signal pwm_adc_out[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\raw_DDS.v":1:7:1:13|Synthesizing module raw_DDS in library work.
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101010101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_1s___xmr_tag__5_0_5c66e5d1d49fa612420cddc924045842_6_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101100101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_1s___xmr_tag__6_0_5c66e5d1d49fa612420cddc924045842_7_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000011
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101110101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+   Generated name = syn_hyper_source_3s___xmr_tag__7_0_5c66e5d1d49fa612420cddc924045842_8_layer0
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":1:7:1:14|Synthesizing module bcd_8421 in library work.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":37:16:37:24|Removing redundant assignment.
+@N: CG179 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":57:17:57:26|Removing redundant assignment.
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":8:7:8:15|Synthesizing module OLED12864 in library work.
+@W: CS263 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":56:11:56:13|Port-width mismatch for port data. The port definition is 20 bits, but the actual port connection bit width is 16. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":69:11:69:13|Port-width mismatch for port data. The port definition is 20 bits, but the actual port connection bit width is 24. Adjust either the definition or the instantiation of this port.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 167 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 159 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 151 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 143 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 135 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 127 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 119 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 111 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 103 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 95 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 87 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 79 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 71 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 63 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 55 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 47 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 39 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 31 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 23 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 15 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Removing unused bit 7 of char[167:0]. Either assign all bits or reduce the width of the signal.
+@A: CL282 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Feedback mux created for signal mem_hanzi_num[4:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Register bit mem_hanzi_num[0] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Register bit mem_hanzi_num[4] is always 0.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit x_ph[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit x_ph[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit x_ph[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit x_ph[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit x_pl[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit x_pl[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit x_pl[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit x_pl[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit y_p[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit y_p[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[64] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[65] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[66] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[67] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[68] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[70] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[72] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[73] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[74] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[75] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[76] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[78] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[80] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[81] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[82] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[83] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[84] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[86] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[88] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[89] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[90] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[91] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[92] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[94] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[96] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[97] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[98] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[99] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[100] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[102] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[104] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[105] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[106] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[107] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[108] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[110] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[112] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[113] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[114] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[115] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[116] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[118] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[120] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[121] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[122] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[123] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[124] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[126] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[128] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[129] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[130] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[131] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[132] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[133] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[134] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[136] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[137] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[138] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[139] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[140] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[141] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[142] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[144] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[145] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[146] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[147] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[148] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[149] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[150] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[152] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[153] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[154] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[155] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[156] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[157] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[158] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[160] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[161] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[162] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[163] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[164] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[165] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit char[166] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[0][0] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[0][1] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[0][2] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[0][3] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[0][4] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[0][5] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[0][6] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[0][7] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[1][0] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[1][1] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[1][2] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[1][3] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[1][4] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[1][5] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[1][6] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[1][7] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[2][0] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[2][1] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[2][2] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[2][3] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[2][4] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[2][5] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[2][6] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[2][7] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[3][0] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[3][1] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[3][2] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[3][3] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[3][4] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[3][5] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[3][6] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[3][7] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[4][0] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[4][1] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[4][2] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[4][3] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[4][4] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[4][5] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[4][6] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[4][7] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[5][0] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[5][1] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[5][2] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[5][3] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[5][4] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[5][5] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[5][6] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[5][7] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[6][0] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[6][1] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[6][2] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[6][3] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[6][4] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[6][5] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[6][6] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[6][7] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[7][0] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[7][1] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[7][2] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[7][3] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[7][4] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[7][5] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[7][6] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[7][7] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[8][0] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[8][1] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[8][2] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[8][3] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[8][4] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[8][5] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[8][6] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[8][7] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[9][0] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[9][1] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[9][2] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[9][3] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[9][4] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[9][5] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[9][6] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[9][7] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[10][0] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[10][1] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[10][2] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[10][3] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[10][4] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[10][5] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[10][6] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[10][7] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[11][0] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[11][1] is always 1.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[11][2] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[11][3] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[11][4] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[11][5] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[11][6] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[11][7] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[12][0] is always 0.
+@N: CL189 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":299:1:299:6|Register bit cmd[12][1] is always 0.
+
+Only the first 100 messages of id 'CL189' are reported. To see all messages use 'report_messages -log C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\synlog\DDS_simple_DDS_simple_compiler.srr -id CL189' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL189} -count unlimited' in the Tcl shell.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 4 of mem_hanzi_num[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 0 of mem_hanzi_num[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bits 7 to 5 of x_ph[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 3 of x_ph[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 70 of char[70:64]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bits 68 to 64 of char[70:64]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 78 of char[78:72]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bits 76 to 72 of char[78:72]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 86 of char[86:80]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bits 84 to 80 of char[86:80]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 94 of char[94:88]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bits 92 to 88 of char[94:88]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 102 of char[102:96]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bits 100 to 96 of char[102:96]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 110 of char[110:104]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bits 108 to 104 of char[110:104]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 118 of char[118:112]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bits 116 to 112 of char[118:112]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 126 of char[126:120]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bits 124 to 120 of char[126:120]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning unused register char[134:128]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning unused register char[142:136]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning unused register char[150:144]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning unused register char[158:152]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning unused register char[166:160]. Make sure that there are no unused intermediate registers.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 6 of y_p[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 3 of y_p[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bits 7 to 4 of x_pl[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":1:7:1:9|Synthesizing module top in library work.
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":16:7:16:23|Synthesizing module syn_hyper_connect in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101010101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+	dflt=32'b00000000000000000000000000000101
+	mustconnect=1'b1
+   Generated name = syn_hyper_connect_1s___xmr_tag__5_0_5c66e5d1d49fa612420cddc924045842_5s_1_9_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":16:7:16:23|Synthesizing module syn_hyper_connect in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101100101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+	dflt=32'b00000000000000000000000000000101
+	mustconnect=1'b1
+   Generated name = syn_hyper_connect_1s___xmr_tag__6_0_5c66e5d1d49fa612420cddc924045842_5s_1_10_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":16:7:16:23|Synthesizing module syn_hyper_connect in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000011
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101110101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+	dflt=32'b00000000000000000000000000000101
+	mustconnect=1'b1
+   Generated name = syn_hyper_connect_3s___xmr_tag__7_0_5c66e5d1d49fa612420cddc924045842_5s_1_11_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":16:7:16:23|Synthesizing module syn_hyper_connect in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000010
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001100110101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+	dflt=32'b00000000000000000000000000000101
+	mustconnect=1'b1
+   Generated name = syn_hyper_connect_2s___xmr_tag__3_0_5c66e5d1d49fa612420cddc924045842_5s_1_12_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":16:7:16:23|Synthesizing module syn_hyper_connect in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000011000
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001100010101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+	dflt=32'b00000000000000000000000000000101
+	mustconnect=1'b1
+   Generated name = syn_hyper_connect_24s___xmr_tag__1_0_5c66e5d1d49fa612420cddc924045842_5s_1_13_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":16:7:16:23|Synthesizing module syn_hyper_connect in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000011
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001100100101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+	dflt=32'b00000000000000000000000000000101
+	mustconnect=1'b1
+   Generated name = syn_hyper_connect_3s___xmr_tag__2_0_5c66e5d1d49fa612420cddc924045842_5s_1_14_layer0
+@N: CG364 :"G:\lattice\radiant\synpbase\lib\vlog\hypermods.v":16:7:16:23|Synthesizing module syn_hyper_connect in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000001000
+	tag=376'b0101111101011111011110000110110101110010010111110111010001100001011001110101111101011111001101000101111100110000010111110011010101100011001101100011011001100101001101010110010000110001011001000011010000111001011001100110000100110110001100010011001000110100001100100011000001100011011001000110010001100011001110010011001000110100001100000011010000110101001110000011010000110010
+	dflt=32'b00000000000000000000000000000101
+	mustconnect=1'b1
+   Generated name = syn_hyper_connect_8s___xmr_tag__4_0_5c66e5d1d49fa612420cddc924045842_5s_1_15_layer0
+@W: CS263 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":65:11:65:25|Port-width mismatch for port frq. The port definition is 24 bits, but the actual port connection bit width is 16. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\top.v":66:14:66:18|Port-width mismatch for port shape. The port definition is 3 bits, but the actual port connection bit width is 2. Adjust either the definition or the instantiation of this port.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit cnt[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit cnt[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit cnt[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit cnt[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit cnt[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit cnt[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Optimizing register bit cnt[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Only the first 100 messages of id 'CL190' are reported. To see all messages use 'report_messages -log C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\synlog\DDS_simple_DDS_simple_compiler.srr -id CL190' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL190} -count unlimited' in the Tcl shell.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bits 15 to 5 of cnt[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Trying to extract state machine for register cnt_init.
+Extracted state machine for register cnt_init
+State machine has 6 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+   00100
+   00101
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 12 of char[14:8]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 10 of char[14:8]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 3 of x_pl[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":81:1:81:6|Pruning register bit 5 of y_p[5:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\OLED12864.v":16:15:16:17|Input port bits 23 to 20 of frq[23:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bits 7 to 6 of unit[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bits 7 to 6 of tho[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bits 7 to 6 of ten[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bits 7 to 6 of t_tho[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bits 7 to 6 of hun[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bits 7 to 6 of h_hun[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bit 5 of unit[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bit 5 of tho[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bit 5 of ten[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bit 5 of t_tho[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bit 5 of hun[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\bcd_8421.v":67:1:67:6|Pruning register bit 5 of h_hun[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":31:0:31:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+@N: CL201 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\acculator.v":20:1:20:6|Trying to extract state machine for register freq_conf_state.
+Extracted state machine for register freq_conf_state
+State machine has 3 reachable states with original encodings of:
+   000
+   001
+   011
+@N: CL159 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\pll_sys\rtl\core\lscc_pll.v":84:29:84:38|Input feedback_i is unused.
+@N: CL159 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\pll_sys\rtl\core\lscc_pll.v":85:29:85:43|Input dynamic_delay_i is unused.
+@N: CL201 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\state_fsm.v":15:1:15:6|Trying to extract state machine for register fsm_state.
+Extracted state machine for register fsm_state
+State machine has 3 reachable states with original encodings of:
+   001
+   010
+   100

@@ -1,0 +1,933 @@
+    Lattice Mapping Report File for Design Module 'DDS_simple_DDS_simple'
+
+Target Vendor:        LATTICE
+Target Device:        iCE40UP5KSG48
+Target Performance:   High-Performance_1.2V
+
+Mapper:    version Radiant (64-bit) 1.0.0.350.6
+Mapped on: Thu Feb 10 19:10:55 2022
+
+Design Information
+------------------
+
+Command line:   map DDS_simple_DDS_simple_syn.udb C:/Users/11091/Desktop/FPGA_Ac
+     tive_By_yinghe/my_prj/simple_DDS/DDS/source/DDS_simple.pdc -o
+     DDS_simple_DDS_simple.udb -gui
+
+Design Summary
+--------------
+
+   Number of slice registers: 511 out of  5280 (10%)
+   Number of I/O registers:      0 out of   117 (0%)
+   Number of LUT4s:           1451 out of  5280 (27%)
+      Number of logic LUT4s:             1058
+      Number of inserted feedthru LUT4s: 128
+      Number of replicated LUT4s:         25
+      Number of ripple logic:            120 (240 LUT4s)
+   Number of IO sites used:   19 out of 39 (49%)
+      Number of IO sites used for general PIOs: 19
+      Number of IO sites used for I3Cs: 0 out of 2 (0%)
+      Number of IO sites used for PIOs+I3Cs: 19 out of 36 (53%)
+      (note: If I3C is not used, its site can be used as general PIO)
+      Number of IO sites used for OD+RGB IO buffers: 0 out of 3 (0%)
+   Number of DSPs:             3 out of 8 (37%)
+   Number of I2Cs:             0 out of 2 (0%)
+   Number of High Speed OSCs:  0 out of 1 (0%)
+   Number of Low Speed OSCs:   0 out of 1 (0%)
+   Number of RGB PWM:          0 out of 1 (0%)
+   Number of RGB Drivers:      0 out of 1 (0%)
+   Number of SCL FILTERs:      0 out of 2 (0%)
+   Number of SRAMs:            0 out of 4 (0%)
+   Number of WARMBOOTs:        0 out of 1 (0%)
+   Number of SPIs:             0 out of 2 (0%)
+   Number of EBRs:             11 out of 30 (36%)
+   Number of PLLs:             1 out of 1 (100%)
+   Number of Clocks:  2
+      Net wpll_sys_clk: 519 loads, 519 rising, 0 falling (Driver: Pin
+     raw_DDS_inst.pll_sys_inst.lscc_pll_inst.u_PLL_B/OUTCORE)
+      Net iclk_c: 1 loads, 1 rising, 0 falling (Driver: Port iclk)
+   Number of Clock Enables:  27
+      Net VCC: 19 loads, 0 SLICEs
+      Net OLED12864_inst/un1_state_38_0: 48 loads, 42 SLICEs
+      Net OLED12864_inst/un177_char_reg_cnst_0_0_sr_en_rep2: 10 loads, 10 SLICEs
+      Net OLED12864_inst/un177_char_reg_cnst_0_0_sr_en_rep1: 9 loads, 9 SLICEs
+      Net OLED12864_inst/un177_char_reg_cnst_0_0_sr_en_fast: 7 loads, 7 SLICEs
+      Net OLED12864_inst/cnt_delaye_0_i: 16 loads, 16 SLICEs
+      Net OLED12864_inst/nume_0_i: 8 loads, 8 SLICEs
+      Net OLED12864_inst/un177_char_reg_cnst_0_0_sr_en: 14 loads, 14 SLICEs
+      Net OLED12864_inst/state[6]: 6 loads, 6 SLICEs
+      Net OLED12864_inst/un1_state_18_0: 1 loads, 1 SLICEs
+      Net OLED12864_inst/N_569_0_i: 45 loads, 45 SLICEs
+      Net OLED12864_inst/un1_state_44_0_i: 10 loads, 10 SLICEs
+      Net OLED12864_inst/N_489_0_i: 4 loads, 4 SLICEs
+
+                                    Page 1
+
+
+
+
+
+Design Summary (cont)
+---------------------
+      Net OLED12864_inst/cnt_maine_0_0: 6 loads, 6 SLICEs
+      Net OLED12864_inst/N_1613_0: 8 loads, 8 SLICEs
+      Net OLED12864_inst/cnt_scane_0_0: 2 loads, 2 SLICEs
+      Net OLED12864_inst.N_1625_0: 8 loads, 8 SLICEs
+      Net OLED12864_inst/bcd_8421_vpp/un4_i: 36 loads, 36 SLICEs
+      Net OLED12864_inst/bcd_8421_vpp/unit10: 17 loads, 17 SLICEs
+      Net OLED12864_inst/bcd_8421_frq/unit10: 25 loads, 25 SLICEs
+      Net OLED12864_inst/bcd_8421_frq/un4_i: 44 loads, 44 SLICEs
+      Net raw_DDS_inst/state_fsm_inst/ikey_sel_n_fin_0: 1 loads, 1 SLICEs
+      Net raw_DDS_inst/pwm_adc_inst/un1_r_adc_in[0]: 8 loads, 8 SLICEs
+      Net raw_DDS_inst/pwm_adc_inst/pwm_adc_out_0_sqmuxa: 8 loads, 8 SLICEs
+      Net raw_DDS_inst/acculator_inst/freq_byte_2_sqmuxa: 8 loads, 8 SLICEs
+      Net raw_DDS_inst/acculator_inst/freq_byte_11: 8 loads, 8 SLICEs
+      Net raw_DDS_inst/user_rom8x2k_inst/state13: 1 loads, 1 SLICEs
+   Number of LSRs:  1
+      Net w_sys_rstn_i: 444 loads, 444 SLICEs
+   Top 10 highest fanout non-clock nets:
+      Net w_sys_rstn_i: 444 loads
+      Net VCC: 90 loads
+      Net OLED12864_inst/state[0]: 70 loads
+      Net OLED12864_inst/state[1]: 60 loads
+      Net OLED12864_inst/bcd_8421_frq/shift_flag: 50 loads
+      Net OLED12864_inst/N_569_0_i: 48 loads
+      Net OLED12864_inst/un1_state_38_0: 48 loads
+      Net OLED12864_inst/bcd_8421_frq/data_shift79: 44 loads
+      Net OLED12864_inst/bcd_8421_frq/un4_i: 44 loads
+      Net OLED12864_inst/bcd_8421_vpp/shift_flag: 42 loads
+
+
+
+
+   Number of warnings:  4
+   Number of errors:    0
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: The clock port [irstn] is assigned to a non clock dedicated pin
+     [6], which might affect the clock performance. Use dedicated clock
+     resources for the port.
+WARNING - map: The clock port [ikey_sel_n] is assigned to a non clock dedicated
+     pin [42], which might affect the clock performance. Use dedicated clock
+     resources for the port.
+WARNING - map: The clock port [ikey_fov_n] is assigned to a non clock dedicated
+     pin [38], which might affect the clock performance. Use dedicated clock
+     resources for the port.
+WARNING - map: The clock port [pwm_adc_in] is assigned to a non clock dedicated
+     pin [12], which might affect the clock performance. Use dedicated clock
+     resources for the port.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+
+| IO Name             | Direction | Levelmode |
+|                     |           |  IO_TYPE  |
++---------------------+-----------+-----------+
+
+                                    Page 2
+
+
+
+
+
+IO (PIO) Attributes (cont)
+--------------------------
+| oled_dat            | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| oled_clk            | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| oled_dcn            | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| oled_rst            | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| oled_csn            | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| owdac_num[7]        | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| owdac_num[6]        | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| owdac_num[5]        | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| owdac_num[4]        | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| owdac_num[3]        | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| owdac_num[2]        | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| owdac_num[1]        | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| owdac_num[0]        | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| pwm_out             | OUTPUT    | LVCMOS33  |
++---------------------+-----------+-----------+
+| pwm_adc_in          | INPUT     | LVCMOS33  |
++---------------------+-----------+-----------+
+| ikey_fov_n          | INPUT     | LVCMOS33  |
++---------------------+-----------+-----------+
+| ikey_sel_n          | INPUT     | LVCMOS33  |
++---------------------+-----------+-----------+
+| irstn               | INPUT     | LVCMOS33  |
++---------------------+-----------+-----------+
+| iclk                | INPUT     | LVCMOS33  |
++---------------------+-----------+-----------+
+
+Removed logic
+-------------
+
+Signal GND undriven or does not drive anything - clipped.
+Signal freq_num_add_1_cry_0_0.S0 undriven or does not drive anything - clipped.
+Signal freq_num_add_1_cry_0_0.CIN undriven or does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[0] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[1] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[2] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[4] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[5] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[6] undriven or
+     does not drive anything - clipped.
+
+                                    Page 3
+
+
+
+
+
+Removed logic (cont)
+--------------------
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[7] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[8] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[9] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[10] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[12] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[13] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[14] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_7_cZ.DO[15] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[0] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[1] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[2] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[4] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[5] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[6] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[7] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[8] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[9] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[10] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[12] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[13] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[14] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_6_cZ.DO[15] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[0] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[1] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[2] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[4] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[5] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[6] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[7] undriven or
+
+                                    Page 4
+
+
+
+
+
+Removed logic (cont)
+--------------------
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[8] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[9] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[10] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[12] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[13] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[14] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_5_cZ.DO[15] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[0] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[1] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[2] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[4] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[5] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[6] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[7] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[8] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[9] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[10] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[12] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[13] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[14] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_4_cZ.DO[15] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[0] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[1] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[2] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[4] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[5] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[6] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[7] undriven or
+     does not drive anything - clipped.
+
+                                    Page 5
+
+
+
+
+
+Removed logic (cont)
+--------------------
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[8] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[9] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[10] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[12] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[13] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[14] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_3_cZ.DO[15] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[0] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[1] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[2] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[4] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[5] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[6] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[7] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[8] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[9] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[10] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[12] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[13] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[14] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_2_cZ.DO[15] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[0] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[1] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[2] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[4] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[5] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[6] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[7] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[8] undriven or
+
+                                    Page 6
+
+
+
+
+
+Removed logic (cont)
+--------------------
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[9] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[10] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[12] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[13] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[14] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_1_cZ.DO[15] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[0] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[1] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[2] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[4] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[5] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[6] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[7] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[8] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[9] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[10] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[12] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[13] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[14] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/user_rom8x2k_inst/un4_rd_data_reg_0_0_cZ.DO[15] undriven or
+     does not drive anything - clipped.
+Signal raw_DDS_inst/acculator_inst/un3_odac_reg_cry_0_0.S0 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/acculator_inst/un3_odac_reg_cry_0_0.CIN undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/acculator_inst/un3_odac_reg_s_23_0.COUT undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/acculator_inst/un3_odac_reg_s_23_0.S1 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/pwm_adder_cry_0[0].S0 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/pwm_adder_cry_0[0].CIN undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/pwm_adder_s_0[7].COUT undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/pwm_adder_s_0[7].S1 undriven or does not drive
+     anything - clipped.
+
+                                    Page 7
+
+
+
+
+
+Removed logic (cont)
+--------------------
+Signal raw_DDS_inst/pwm_adc_inst/pwm_set_cry_0[0].S0 undriven or does not drive
+     anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/pwm_set_cry_0[0].CIN undriven or does not drive
+     anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/pwm_set_s_0[7].COUT undriven or does not drive
+     anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/pwm_set_s_0[7].S1 undriven or does not drive
+     anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/un1_pwm_out_cry_0_0.S1 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/un1_pwm_out_cry_0_0.S0 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/un1_pwm_out_cry_0_0.CIN undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/un1_pwm_out_cry_1_0.S1 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/un1_pwm_out_cry_1_0.S0 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/un1_pwm_out_cry_3_0.S1 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/un1_pwm_out_cry_3_0.S0 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/un1_pwm_out_cry_5_0.S1 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/un1_pwm_out_cry_5_0.S0 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/un1_pwm_out_cry_7_0.COUT undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/pwm_adc_inst/un1_pwm_out_cry_7_0.S0 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/keyfreq_filter_inst_fov/cnt_cry_0[0].S0 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/keyfreq_filter_inst_fov/cnt_cry_0[0].CIN undriven or does
+     not drive anything - clipped.
+Signal raw_DDS_inst/keyfreq_filter_inst_fov/cnt_s_0[19].COUT undriven or does
+     not drive anything - clipped.
+Signal raw_DDS_inst/keyfreq_filter_inst_fov/cnt_s_0[19].S1 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/keysel_filter_inst_sel/cnt_cry_0[0].S0 undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/keysel_filter_inst_sel/cnt_cry_0[0].CIN undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/keysel_filter_inst_sel/cnt_s_0[19].COUT undriven or does not
+     drive anything - clipped.
+Signal raw_DDS_inst/keysel_filter_inst_sel/cnt_s_0[19].S1 undriven or does not
+     drive anything - clipped.
+Signal OLED12864_inst/un177_char_reg_cnst_0_2.DO[8] undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un177_char_reg_cnst_0_2.DO[9] undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un177_char_reg_cnst_0_2.DO[10] undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un177_char_reg_cnst_0_2.DO[11] undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un177_char_reg_cnst_0_2.DO[12] undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un177_char_reg_cnst_0_2.DO[13] undriven or does not drive
+
+                                    Page 8
+
+
+
+
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal OLED12864_inst/un177_char_reg_cnst_0_2.DO[14] undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un177_char_reg_cnst_0_2.DO[15] undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un9_data_shift_cry_0_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un9_data_shift_cry_0_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un9_data_shift_cry_0_0.CIN undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un9_data_shift_cry_1_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un9_data_shift_cry_1_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un9_data_shift_cry_3_0.COUT undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un9_data_shift_cry_3_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un21_data_shift_cry_0_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un21_data_shift_cry_0_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un21_data_shift_cry_0_0.CIN undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un21_data_shift_cry_1_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un21_data_shift_cry_1_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un21_data_shift_cry_3_0.COUT undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un21_data_shift_cry_3_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un32_data_shift_cry_0_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un32_data_shift_cry_0_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un32_data_shift_cry_0_0.CIN undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un32_data_shift_cry_1_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un32_data_shift_cry_1_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un32_data_shift_cry_3_0.COUT undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un32_data_shift_cry_3_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un43_data_shift_cry_0_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un43_data_shift_cry_0_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un43_data_shift_cry_0_0.CIN undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un43_data_shift_cry_1_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un43_data_shift_cry_1_0.S0 undriven or does
+     not drive anything - clipped.
+
+                                    Page 9
+
+
+
+
+
+Removed logic (cont)
+--------------------
+Signal OLED12864_inst/bcd_8421_frq/un43_data_shift_cry_3_0.COUT undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un43_data_shift_cry_3_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un54_data_shift_cry_0_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un54_data_shift_cry_0_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un54_data_shift_cry_0_0.CIN undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un54_data_shift_cry_1_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un54_data_shift_cry_1_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un54_data_shift_cry_3_0.COUT undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un54_data_shift_cry_3_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un65_data_shift_cry_0_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un65_data_shift_cry_0_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un65_data_shift_cry_0_0.CIN undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un65_data_shift_cry_1_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un65_data_shift_cry_1_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un65_data_shift_cry_3_0.COUT undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_frq/un65_data_shift_cry_3_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un9_data_shift_cry_0_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un9_data_shift_cry_0_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un9_data_shift_cry_0_0.CIN undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un9_data_shift_cry_1_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un9_data_shift_cry_1_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un9_data_shift_cry_3_0.COUT undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un9_data_shift_cry_3_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un21_data_shift_cry_0_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un21_data_shift_cry_0_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un21_data_shift_cry_0_0.CIN undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un21_data_shift_cry_1_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un21_data_shift_cry_1_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un21_data_shift_cry_3_0.COUT undriven or does
+
+                                   Page 10
+
+
+
+
+
+Removed logic (cont)
+--------------------
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un21_data_shift_cry_3_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un32_data_shift_cry_0_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un32_data_shift_cry_0_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un32_data_shift_cry_0_0.CIN undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un32_data_shift_cry_1_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un32_data_shift_cry_1_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un32_data_shift_cry_3_0.COUT undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un32_data_shift_cry_3_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un43_data_shift_cry_0_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un43_data_shift_cry_0_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un43_data_shift_cry_0_0.CIN undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un43_data_shift_cry_1_0.S1 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un43_data_shift_cry_1_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un43_data_shift_cry_3_0.COUT undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/bcd_8421_vpp/un43_data_shift_cry_3_0.S0 undriven or does
+     not drive anything - clipped.
+Signal OLED12864_inst/cnt_write_cry_0[0].S0 undriven or does not drive anything
+     - clipped.
+Signal OLED12864_inst/cnt_write_cry_0[0].CIN undriven or does not drive anything
+     - clipped.
+Signal OLED12864_inst/cnt_write_cry_0[3].COUT undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/cnt_delay_cry_0[0].S0 undriven or does not drive anything
+     - clipped.
+Signal OLED12864_inst/cnt_delay_cry_0[0].CIN undriven or does not drive anything
+     - clipped.
+Signal OLED12864_inst/cnt_delay_s_0[15].COUT undriven or does not drive anything
+     - clipped.
+Signal OLED12864_inst/cnt_delay_s_0[15].S1 undriven or does not drive anything -
+     clipped.
+Signal OLED12864_inst/cnt_cry_0[0].S0 undriven or does not drive anything -
+     clipped.
+Signal OLED12864_inst/cnt_cry_0[0].CIN undriven or does not drive anything -
+     clipped.
+Signal OLED12864_inst/cnt_cry_0[3].COUT undriven or does not drive anything -
+     clipped.
+Signal OLED12864_inst/num_cry_0[0].S0 undriven or does not drive anything -
+     clipped.
+Signal OLED12864_inst/num_cry_0[0].CIN undriven or does not drive anything -
+     clipped.
+Signal OLED12864_inst/num_s_0[7].COUT undriven or does not drive anything -
+     clipped.
+
+                                   Page 11
+
+
+
+
+
+Removed logic (cont)
+--------------------
+Signal OLED12864_inst/num_s_0[7].S1 undriven or does not drive anything -
+     clipped.
+Signal OLED12864_inst/cnt_main_cry_0[0].S0 undriven or does not drive anything -
+     clipped.
+Signal OLED12864_inst/cnt_main_cry_0[0].CIN undriven or does not drive anything
+     - clipped.
+Signal OLED12864_inst/cnt_main_cry_0[3].COUT undriven or does not drive anything
+     - clipped.
+Signal OLED12864_inst/cnt_scan_cry_0[0].S0 undriven or does not drive anything -
+     clipped.
+Signal OLED12864_inst/cnt_scan_cry_0[0].CIN undriven or does not drive anything
+     - clipped.
+Signal OLED12864_inst/cnt_scan_cry_0[3].COUT undriven or does not drive anything
+     - clipped.
+Signal OLED12864_inst/un3_cnt_chinese_1_cry_1_0.S0 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un3_cnt_chinese_1_cry_1_0.CIN undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un3_cnt_chinese_1_cry_4_0.COUT undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_0_0.S1 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_0_0.S0 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_0_0.CIN undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_1_0.S1 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_1_0.S0 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_3_0.S1 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_3_0.S0 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_5_0.S1 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_5_0.S0 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_7_0.S1 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_7_0.S0 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_9_0.S1 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_9_0.S0 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_11_0.S1 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_11_0.S0 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_13_0.S1 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_13_0.S0 undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_15_0.COUT undriven or does not drive
+     anything - clipped.
+Signal OLED12864_inst/un1_cnt_delay_cry_15_0.S0 undriven or does not drive
+
+                                   Page 12
+
+
+
+
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal freq_num_add_1_s_1_0.COUT undriven or does not drive anything - clipped.
+Signal freq_num_add_1_s_1_0.S1 undriven or does not drive anything - clipped.
+Block GND_cZ was optimized away.
+
+PLL/DLL Summary
+---------------
+
+PLL 1:                                 Pin/Node Value
+  PLL Instance Name:                            raw_DDS_inst.pll_sys_inst.lscc_p
+       ll_inst.u_PLL_B
+  PLL Type:                                     PLL_B
+  Input Reference Clock:               PIN      iclk_c
+  Output Clock(CoreA):                 NODE     wpll_sys_clk
+  Output Clock(GlobalA):                        NONE
+  Output Clock(CoreB):                          NONE
+  Output Clock(GlobalB):                        NONE
+  Feedback input:                      NODE
+       raw_DDS_inst/pll_sys_inst/lscc_pll_inst/intfbout_w
+  Internal Feedback output:            NODE
+       raw_DDS_inst/pll_sys_inst/lscc_pll_inst/intfbout_w
+  BYPASS signal:                                GND
+  LATCH signal:                                 GND
+  Lock Signal:                         NODE
+       raw_DDS_inst/pll_sys_inst/lscc_pll_inst/w_pll_lock
+  Input Clock Frequency (MHz):                  12.0000
+  Reference Divider:                            0
+  Feedback Divider:                             63
+  VCO Divider:                                  4
+  ENABLE_ICEGATE_PORTA:                         0
+  ENABLE_ICEGATE_PORTB:                         0
+  PLLOUT_SELECT_PORTA:                          GENCLK
+  PLLOUT_SELECT_PORTB:                          GENCLK
+  SHIFTREG_DIV_MODE:                            0
+  DELAY_ADJUSTMENT_MODE_RELATIVE:               FIXED
+  FDA_RELATIVE:                                 0
+  FEEDBACK_PATH:                                SIMPLE
+  DELAY_ADJUSTMENT_MODE_FEEDBACK:               FIXED
+  FDA_FEEDBACK:                                 0
+  FILTER_RANGE:                                 1
+  EXTERNAL_DIVIDE_FACTOR:                       NONE
+  TEST Mode:                                    0
+
+ASIC Components
+---------------
+
+Instance Name: freq_num_1_mulonly_0[19:0]
+         Type: DSP
+Instance Name: vpp_mulonly_0[17:0]
+         Type: DSP
+Instance Name: OLED12864_inst.un177_char_reg_cnst_0_0.ebr_inst
+         Type: EBR
+Instance Name: OLED12864_inst.un177_char_reg_cnst_0_1.ebr_inst
+         Type: EBR
+Instance Name: OLED12864_inst.un177_char_reg_cnst_0_2.ebr_inst
+         Type: EBR
+Instance Name: raw_DDS_inst.pll_sys_inst.lscc_pll_inst.u_PLL_B
+
+                                   Page 13
+
+
+
+
+
+ASIC Components (cont)
+----------------------
+         Type: PLL
+Instance Name: raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_0_cZ.ebr_inst
+         Type: EBR
+Instance Name: raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_1_cZ.ebr_inst
+         Type: EBR
+Instance Name: raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_2_cZ.ebr_inst
+         Type: EBR
+Instance Name: raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_3_cZ.ebr_inst
+         Type: EBR
+Instance Name: raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_4_cZ.ebr_inst
+         Type: EBR
+Instance Name: raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_5_cZ.ebr_inst
+         Type: EBR
+Instance Name: raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_6_cZ.ebr_inst
+         Type: EBR
+Instance Name: raw_DDS_inst.user_rom8x2k_inst.un4_rd_data_reg_0_7_cZ.ebr_inst
+         Type: EBR
+Instance Name: raw_DDS_inst.user_rom8x2k_inst.rd_data_buffer_mulonly_0[15:0]
+         Type: DSP
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 1 secs
+   Total REAL Time: 0 secs
+   Peak Memory Usage: 88 MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 14
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2018 Lattice Semiconductor
+     Corporation,  All rights reserved.

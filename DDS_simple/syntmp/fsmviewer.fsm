@@ -1,0 +1,24 @@
+fsm_options -device {fsm_state[2:0]}
+
+define_state WAVEMODE 001 {c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\state_fsm.v} 22 4 22 11
+state_output WAVEMODE {fsm_state[0]} 1
+
+define_state FREQMODE 010 {c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\state_fsm.v} 23 4 23 11
+state_output FREQMODE {fsm_state[1]} 1
+
+define_state VPPMODE 100 {c:\users\11091\desktop\fpga_active_by_yinghe\my_prj\simple_dds\dds\dds_simple\source\state_fsm.v} 24 4 24 10
+state_output VPPMODE {fsm_state[2]} 1
+
+fsm_options -resetState WAVEMODE
+
+define_transition VPPMODE VPPMODE {key_sel_n = 1}
+define_transition FREQMODE VPPMODE {key_sel_n = 0}
+define_transition FREQMODE FREQMODE {key_sel_n = 1}
+define_transition WAVEMODE FREQMODE {key_sel_n = 0}
+define_transition VPPMODE WAVEMODE {key_sel_n = 0}
+define_transition WAVEMODE WAVEMODE {key_sel_n = 1}
+fsm_options -SRSPath {C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\DDS_simple_DDS_simple.srs}
+fsm_options -SRSTime 1644491437
+fsm_options -FSMPath {raw_DDS_inst.state_fsm_inst.fsm_state[2:0]}
+fsm_options -view {work.state_fsm.verilog|i:fsm_state[2:0]}
+fsm_options -ID {29151155}

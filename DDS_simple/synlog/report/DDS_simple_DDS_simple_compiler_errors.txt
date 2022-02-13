@@ -1,0 +1,5 @@
+@E: CS153 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":72:12:72:12|Can't mix blocking and non-blocking assignments to a variable
+@E: CS153 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":72:12:72:12|Illegal or Unsupported Syntax within black box. Use: // synthesis translate_off {  unsupported Verilog } // synthesis translate_on 
+@E: CS153 :"C:\Users\11091\Desktop\FPGA_Active_By_yinghe\my_prj\simple_DDS\DDS\DDS_simple\source\user_rom8x2k.v":72:12:72:12|Alternatively, set the builtin compiler directive IGNORE_VERILOG_BLACKBOX_GUTS in the Verilog tab of the UI or set `define IGNORE_VERILOG_BLACKBOX_GUTS in any Verilog file.
+@E::Errors while synthesizing top module top.
+

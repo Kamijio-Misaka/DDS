@@ -1,0 +1,205 @@
+----------------------------------------------------------------------
+Report for cell top.verilog
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B      120       100.0
+                            FD1P3BZ       10       100.0
+                            FD1P3DZ      501       100.0
+                                GND       12       100.0
+                                 IB        5       100.0
+                                INV       24       100.0
+                               LUT4     1032       100.0
+                              MAC16        3       100.0
+                                 OB       14       100.0
+                              PDP4K       11       100.0
+                              PLL_B        1       100.0
+                                VCC       12       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+SUB MODULES 
+                          OLED12864        1       100.0
+          acculator_2047_2_0_1_3_xmr0        1       100.0
+                         bcd_8421_0        1       100.0
+                         bcd_8421_1        1       100.0
+                  key_filter_499999        1       100.0
+                key_filter_499999_0        1       100.0
+                 lscc_pll_Z1_layer0        1       100.0
+                            pll_sys        1       100.0
+                            pwm_adc        1       100.0
+                       raw_DDS_xmr2        1       100.0
+                          state_fsm        1       100.0
+          user_rom8x2k_2047_1_4_0_1_3_xmr1        1       100.0
+                            
+                         TOTAL          1759           
+----------------------------------------------------------------------
+Report for cell raw_DDS_xmr2.netlist
+     Instance path:  raw_DDS_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       50        41.7
+                            FD1P3BZ        3        30.0
+                            FD1P3DZ      129        25.7
+                                GND        9        75.0
+                                INV        8        33.3
+                               LUT4      135        13.1
+                              MAC16        1        33.3
+                              PDP4K        8        72.7
+                              PLL_B        1       100.0
+                                VCC        9        75.0
+SUB MODULES 
+          acculator_2047_2_0_1_3_xmr0        1       100.0
+                  key_filter_499999        1       100.0
+                key_filter_499999_0        1       100.0
+                 lscc_pll_Z1_layer0        1       100.0
+                            pll_sys        1       100.0
+                            pwm_adc        1       100.0
+                          state_fsm        1       100.0
+          user_rom8x2k_2047_1_4_0_1_3_xmr1        1       100.0
+                            
+                         TOTAL           361           
+----------------------------------------------------------------------
+Report for cell user_rom8x2k_2047_1_4_0_1_3_xmr1.netlist
+     Instance path:  raw_DDS_inst.user_rom8x2k_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DZ       14         2.8
+                                GND        1         8.3
+                               LUT4       18         1.7
+                              MAC16        1        33.3
+                              PDP4K        8        72.7
+                                VCC        1         8.3
+                            
+                         TOTAL            43           
+----------------------------------------------------------------------
+Report for cell acculator_2047_2_0_1_3_xmr0.netlist
+     Instance path:  raw_DDS_inst.acculator_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       13        10.8
+                            FD1P3BZ        1        10.0
+                            FD1P3DZ       47         9.4
+                                GND        1         8.3
+                               LUT4       37         3.6
+                                VCC        1         8.3
+                            
+                         TOTAL           100           
+----------------------------------------------------------------------
+Report for cell pwm_adc.netlist
+     Instance path:  raw_DDS_inst.pwm_adc_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       15        12.5
+                            FD1P3DZ       26         5.2
+                                GND        1         8.3
+                                INV        8        33.3
+                               LUT4       14         1.4
+                                VCC        1         8.3
+                            
+                         TOTAL            65           
+----------------------------------------------------------------------
+Report for cell key_filter_499999_0.netlist
+  Original Cell name key_filter_499999
+     Instance path:  raw_DDS_inst.keyfreq_filter_inst_fov
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       11         9.2
+                            FD1P3BZ        1        10.0
+                            FD1P3DZ       20         4.0
+                                GND        1         8.3
+                               LUT4       31         3.0
+                                VCC        1         8.3
+                            
+                         TOTAL            65           
+----------------------------------------------------------------------
+Report for cell key_filter_499999.netlist
+  Original Cell name key_filter_499999
+     Instance path:  raw_DDS_inst.keysel_filter_inst_sel
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       11         9.2
+                            FD1P3BZ        1        10.0
+                            FD1P3DZ       20         4.0
+                                GND        1         8.3
+                               LUT4       31         3.0
+                                VCC        1         8.3
+                            
+                         TOTAL            65           
+----------------------------------------------------------------------
+Report for cell pll_sys.netlist
+     Instance path:  raw_DDS_inst.pll_sys_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GND        2        16.7
+                               LUT4        2         0.2
+                              PLL_B        1       100.0
+                                VCC        2        16.7
+SUB MODULES 
+                 lscc_pll_Z1_layer0        1       100.0
+                            
+                         TOTAL             8           
+----------------------------------------------------------------------
+Report for cell lscc_pll_Z1_layer0.netlist
+     Instance path:  raw_DDS_inst.pll_sys_inst.lscc_pll_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GND        1         8.3
+                               LUT4        2         0.2
+                              PLL_B        1       100.0
+                                VCC        1         8.3
+                            
+                         TOTAL             5           
+----------------------------------------------------------------------
+Report for cell state_fsm.netlist
+     Instance path:  raw_DDS_inst.state_fsm_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DZ        2         0.4
+                                GND        1         8.3
+                               LUT4        2         0.2
+                                VCC        1         8.3
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell OLED12864.netlist
+     Instance path:  OLED12864_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       68        56.7
+                            FD1P3BZ        7        70.0
+                            FD1P3DZ      372        74.3
+                                GND        3        25.0
+                                INV       16        66.7
+                               LUT4      895        86.7
+                              PDP4K        3        27.3
+                                VCC        3        25.0
+SUB MODULES 
+                         bcd_8421_0        1       100.0
+                         bcd_8421_1        1       100.0
+                            
+                         TOTAL          1369           
+----------------------------------------------------------------------
+Report for cell bcd_8421_0.netlist
+  Original Cell name bcd_8421
+     Instance path:  OLED12864_inst.bcd_8421_frq
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       18        15.0
+                            FD1P3DZ       75        15.0
+                                GND        1         8.3
+                               LUT4       97         9.4
+                                VCC        1         8.3
+                            
+                         TOTAL           192           
+----------------------------------------------------------------------
+Report for cell bcd_8421_1.netlist
+  Original Cell name bcd_8421
+     Instance path:  OLED12864_inst.bcd_8421_vpp
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       12        10.0
+                            FD1P3DZ       59        11.8
+                                GND        1         8.3
+                               LUT4       77         7.5
+                                VCC        1         8.3
+                            
+                         TOTAL           150           

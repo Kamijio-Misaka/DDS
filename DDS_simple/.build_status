@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="2" build_time="1644491533">
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1644491533"/>
+            <Task name="TimingSimFileVlg" build_result="2" update_result="0" update_time="1644491539"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1644491456">
+            <Task name="Map" build_result="2" update_result="0" update_time="1644491456"/>
+            <Task name="MapTrace" build_result="2" update_result="0" update_time="1644491461"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1644491524">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1644491524"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1644491531"/>
+            <Task name="IOTiming" build_result="0" update_result="2" update_time="1644032469"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1644491455">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1644491455"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0"/>
+        <Report name="DDS_simple_DDS_simple.bgn" last_build_time="1644491532" last_build_size="954"/>
+        <Report name="DDS_simple_DDS_simple.bin" last_build_time="1644036277" last_build_size="104156"/>
+        <Report name="DDS_simple_DDS_simple.rbt" last_build_time="1644491533" last_build_size="854374"/>
+        <Report name="DDS_simple_DDS_simple.tw1.html" last_build_time="1644491461" last_build_size="202085"/>
+        <Report name="DDS_simple_DDS_simple.twr.html" last_build_time="1644491531" last_build_size="177062"/>
+        <Report name="DDS_simple_DDS_simple.udb::log" last_build_time="1644491455" last_build_size="849544"/>
+        <Report name="DDS_simple_DDS_simple.udb::phy_par" last_build_time="1644491524" last_build_size="1906689"/>
+        <Report name="DDS_simple_DDS_simple_map.udb" last_build_time="1644491456" last_build_size="1755062"/>
+        <Report name="DDS_simple_DDS_simple_vo.sdf" last_build_time="1644491538" last_build_size="994257"/>
+        <Report name="DDS_simple_DDS_simple_vo.vo" last_build_time="1644491538" last_build_size="1306675"/>
+    </Strategy>
+</BuildStatus>

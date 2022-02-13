@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/11091/Desktop/FPGA_Active_By_yinghe/my_prj/simple_DDS/DDS/DDS_simple/source
+vOLED12864
+!s110 1644045533
+!i10b 1
+!s100 2nRX>l6jAil>j0kXi2LJ23
+I5Y5k9OHYkOoP5B7nMbXGZ3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1644045533
+8c:\users\11091\appdata\local\temp\tmpcrcbi5.v
+Fc:\users\11091\appdata\local\temp\tmpcrcbi5.v
+L0 8
+Z2 OL;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1644045533.000000
+!s107 c:\users\11091\appdata\local\temp\tmpcrcbi5.v|
+!s90 c:\users\11091\appdata\local\temp\tmpcrcbi5.v|
+!i113 1
+Z3 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z4 tCvgOpt 0
+n@o@l@e@d12864
+vraw_DDS
+!s110 1644033064
+!i10b 1
+!s100 ;Kbn1VlafhT@^gjm>ieHl1
+I6`kRSSUOn]F<V8zBoF7]P3
+R1
+R0
+w1644033064
+8c:\users\11091\appdata\local\temp\tmpikgp7_.v
+Fc:\users\11091\appdata\local\temp\tmpikgp7_.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1644033064.000000
+!s107 c:\users\11091\appdata\local\temp\tmpikgp7_.v|
+!s90 c:\users\11091\appdata\local\temp\tmpikgp7_.v|
+!i113 1
+R3
+R4
+nraw_@d@d@s
